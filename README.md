@@ -58,14 +58,14 @@ Appearance enhancement (also known as illumination correction) is not limited to
 [CamScanner](https://www.camscanner.com/), [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html), [Lenovo Smart Scanner](https://static.xue.lenovomm.com/scannerpc.html), [Quark](https://www.quark.cn/)
 
 <a id='14sota'>1.4 SOTA</a>
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}s
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -188,14 +188,14 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 
 <a id='23sota'>2.3 SOTA</a>
 
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -474,14 +474,14 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 
 
 <a id='33sota'>3.3 SOTA</a> (all the results can be downloaded [here]())
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -766,14 +766,14 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synthetic|[Example](./Dataset_image/tdd/tdd.md)|[Link](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|
 
 <a id='43sota'>4.3 SOTA</a>
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -858,14 +858,14 @@ https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 
 
 <a id='43sota'>4.3 SOTA</a>
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
