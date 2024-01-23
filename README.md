@@ -189,7 +189,7 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
     <th class="tg-c3ow" colspan="3"><a href="https://link.springer.com/chapter/10.1007/978-3-030-20887-5_25">Jung et al. (87)</a></th>
     <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">OSR (237)</a></th>
     <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">RDD (545)</a></th>
-    <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">SD7K (760)</a></th>
+    <!-- <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">SD7K (760)</a></th> -->
   </tr>
   <tr>
     <th class="tg-c3ow">RMSE↓</th>
