@@ -60,8 +60,8 @@ Appearance enhancement (also known as illumination correction) is not limited to
 - [Quark](https://www.quark.cn/)
 
 ### 1.4 SOTA
-
-<table class="tg">
+Coming Soon ...
+<!-- <table class="tg">
 <thead>
   <tr>
     <th class="tg-c3ow" rowspan="2">Venue</th>
@@ -105,15 +105,6 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow">0.8633</td>
     <td class="tg-c3ow">19.87</td>
   </tr>
-  <!-- <tr>
-    <td class="tg-c3ow">ICCV'21</td>
-    <td class="tg-c3ow">DewarpNet</td>
-    <td class="tg-c3ow">Doc3D</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-  </tr> -->
   <tr>
     <td class="tg-c3ow">ACM MM'21</td>
     <td class="tg-c3ow">DocTr</td>
@@ -142,7 +133,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow">24.42</td>
   </tr>
 </tbody>
-</table>
+</table> -->
 
 
 ## 2. Deshadow
@@ -178,8 +169,9 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 
 
 ### 2.3 SOTA
+Coming Soon ...
 
-<table class="tg">
+<!-- <table class="tg">
 <thead>
   <tr>
     <th class="tg-c3ow" rowspan="2">Venue</th>
@@ -189,7 +181,7 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
     <th class="tg-c3ow" colspan="3"><a href="https://link.springer.com/chapter/10.1007/978-3-030-20887-5_25">Jung et al. (87)</a></th>
     <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">OSR (237)</a></th>
     <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">RDD (545)</a></th>
-    <!-- <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">SD7K (760)</a></th> -->
+    <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">SD7K (760)</a></th>
   </tr>
   <tr>
     <th class="tg-c3ow">RMSE↓</th>
@@ -429,7 +421,7 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
     <td class="tg-c3ow">0.8786</td>
   </tr>
 </tbody>
-</table>
+</table> -->
 
 
 ## 3. Dewarping
@@ -456,6 +448,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 
 ### 3.3 SOTA
 <!-- ### 3.3 SOTA (all the results can be downloaded [here]()) -->
+Coming Soon ...
 
 <table class="tg">
 <thead>
@@ -476,10 +469,10 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow">LD↓</th>
     <th class="tg-c3ow">Li-D↓</th>
     <th class="tg-c3ow">AD↓</th>
-    <!-- <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">MS-SSIM↑</th>
     <th class="tg-c3ow">LD↓</th>
     <th class="tg-c3ow">Li-D↓</th>
-    <th class="tg-c3ow">AD↓</th> -->
+    <th class="tg-c3ow">AD↓</th>
   </tr>
 </thead>
 <tbody>
@@ -494,11 +487,11 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">8.80</td>
     <td class="tg-c3ow">2.62</td>
     <td class="tg-c3ow">0.328</td>
-    <!-- <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td> -->
-    <!-- <td class="tg-baqh"></td> -->
+    <!-- <td class="tg-baqh"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">ICCV'19</td>
@@ -823,8 +816,8 @@ https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 
 
 ### 5.3 SOTA
-
-<table class="tg">
+Coming Soon ...
+<!-- <table class="tg">
 <thead>
   <tr>
     <th class="tg-c3ow" rowspan="2">Venue</th>
@@ -913,7 +906,7 @@ https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 </tbody>
 </table>
 
-Leave-one-year out (LOYO) strategy means that we consider whole documents of one particular (H-)DIBCO year as a testing dataset, while treat all remaining documents from other years as training data.
+Leave-one-year out (LOYO) strategy means that we consider whole documents of one particular (H-)DIBCO year as a testing dataset, while treat all remaining documents from other years as training data. -->
 
 
 ## ⭐ Star Rising
