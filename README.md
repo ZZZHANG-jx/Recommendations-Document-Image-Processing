@@ -1,4 +1,4 @@
-## Awesome Document Image Enhancement
+## Recommendations of Document Image Processing
 <h4 align="center">A curated list of resources dedicated to Document Image Enhancement</h4>
 
 
