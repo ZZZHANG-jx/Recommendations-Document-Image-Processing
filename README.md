@@ -4,8 +4,6 @@ This repository contains a paper collection of the methods for document image pr
 
 
 ## 🔥 Contents
-- [📖 Recommendations of Document Image Processing](#-recommendations-of-document-image-processing)
-- [🔥 Contents](#-contents)
 - [1. Appearance Enhancement](#1-appearance-enhancement)
   - [1.1 Papers](#11-papers)
   - [1.2 Datasets](#12-datasets)
