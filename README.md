@@ -1,6 +1,6 @@
 ![LOGO](logo.png)
 ## 📖 Recommendations of Document Image Processing
-This repository contains a paper collection of the methods for document image processing.
+This repository contains a paper collection of the methods for document image processing, including appearance enhancement, deshadow, dewarping, deblur, and binarization.
 
 
 ## 🔥 Contents
