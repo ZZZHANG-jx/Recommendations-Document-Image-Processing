@@ -4,10 +4,12 @@ This repository contains a paper collection of the methods for document image pr
 
 
 ## 🔥 Contents
-- [1. Appearance Enhancement](#1appearance)
+- [📖 Recommendations of Document Image Processing](#-recommendations-of-document-image-processing)
+- [🔥 Contents](#-contents)
+- [1. Appearance Enhancement](#1-appearance-enhancement)
   - [1.1 Papers](#11-papers)
   - [1.2 Datasets](#12-datasets)
-  - [1.3 APPs](#13-apps)
+  - [1.3 Apps](#13-apps)
   - [1.4 SOTA](#14-sota)
 - [2. Deshadow](#2-deshadow)
   - [2.1 Papers](#21-papers)
@@ -15,7 +17,7 @@ This repository contains a paper collection of the methods for document image pr
   - [2.3 SOTA](#23-sota)
 - [3. Dewarping](#3-dewarping)
   - [3.1 Papers](#31-papers)
-  - [3.2 Datasets](#32-dataset)
+  - [3.2 Dataset](#32-dataset)
   - [3.3 SOTA](#33-sota)
 - [4. Deblur](#4-deblur)
   - [4.1 Papers](#41-papers)
@@ -25,6 +27,7 @@ This repository contains a paper collection of the methods for document image pr
   - [5.1 Papers](#51-papers)
   - [5.2 Datasets](#52-datasets)
   - [5.3 SOTA](#53-sota)
+- [⭐ Star Rising](#-star-rising)
 
 ## 1. Appearance Enhancement
 Appearance enhancement (also known as illumination correction) is not limited to a specific degradation type and aims to restore a clean appearance similar to that obtained from a scanner or digital born PDF files.
@@ -41,6 +44,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2023|TAI|[Appearance Enhancement for Camera-captured Document Images in the Wild](https://ieeexplore.ieee.org/abstract/document/10268585/)|[Code](https://github.com/ZZZHANG-jx/GCDRNet)|
 |2023|ICCVW|[Template-guided Illumination Correction for Document Images with Imperfect Geometric Reconstruction](https://openaccess.thecvf.com/content/ICCV2023W/NIVT/html/Hertlein_Template-Guided_Illumination_Correction_for_Document_Images_with_Imperfect_Geometric_Reconstruction_ICCVW_2023_paper.html)|[Code](https://github.com/FelixHertlein/illtrtemplate-model)|
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion Models](https://arxiv.org/abs/2305.03892)|[Code](https://github.com/Royalvice/DocDiff)|
+|2023|arxiv|[DocStormer: Revitalizing Multi-Degraded Colored Document Images to Pristine PDF Versions](https://arxiv.org/abs/2310.17910)||
 
 
 ### 1.2 Datasets
@@ -52,6 +56,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |[DocUNet from DocAligner](https://openaccess.thecvf.com/content_cvpr_2018/html/Ma_DocUNet_Document_Image_CVPR_2018_paper.html)|130|Real|[Example](./Dataset_image/docunet_docaligner/docunet_docaligner.md)|[Link](https://www3.cs.stonybrook.edu/~cvl/docunet.html)|
 |[RealDAE](https://ieeexplore.ieee.org/abstract/document/10268585/)|600 (450/150)|Real|[Example](./Dataset_image/realdae/realdae.md)|[Link](https://github.com/ZZZHANG-jx/GCDRNet)|
 |[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Sythetic|[Example](./Dataset_image/inv3d/inv3d.md)|[Link](https://github.com/FelixHertlein/inv3d)|
+
 
 ### 1.3 Apps
 
@@ -65,12 +70,12 @@ Coming Soon ...
 
 
 ## 2. Deshadow
-Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free document images.
+Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obtain shadow-free document images.
 
 ### 2.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
-|2018|CVPR|[Document Enhancement Using Visibility Detection](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)|[baidu]()|
+|2018|CVPR|[Document Enhancement Using Visibility Detection](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)||
 |2020|CVPR|[BEDSR-Net A Deep Shadow Removal Network from a Single Document Image](https://openaccess.thecvf.com/content_CVPR_2020/html/Lin_BEDSR-Net_A_Deep_Shadow_Removal_Network_From_a_Single_Document_CVPR_2020_paper.html)|[Code]([http](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image))|
 |2022|ICPR|[Document Shadow Removal with Foreground Detection Learning From Fully Synth Images](https://ieeexplore.ieee.org/abstract/document/9897217)|[Code](https://github.com/IsHYuhi/DSRFGD)|
 |2022|MERCon|[Shadow Removal for Documents with Reflective Textured Surface](https://ieeexplore.ieee.org/abstract/document/9906227)||
@@ -80,7 +85,8 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 |2023|Optical Review|[Shadow removal from document image based on background estimation employing selective median filter and black-top-hat transform](https://link.springer.com/article/10.1007/s10043-023-00806-y)||
 |2023|CVPR|[Document Image Shadow Removal Guided by Color-Aware Background](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|[Code](https://github.com/hyyh1314/BGShadowNet)|
 |2023|arxiv|[ShaDocFormer: A Shadow-attentive Threshold Detector with Cascaded Fusion Refiner for document shadow removal](https://arxiv.org/abs/2309.06670)||
-|2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[code](https://github.com/CXH-Research/DocShadow-SD7K)|
+|2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[Code](https://github.com/CXH-Research/DocShadow-SD7K)|
+|2023|Sensors|[Synthetic Document Images with Diverse Shadows for Deep Shadow Removal Networks](https://www.mdpi.com/1424-8220/24/2/654)|[Code](https://github.com/ym4t50/SynDoc4DSFN)|
 
 
 ### 2.2 Datasets
@@ -94,6 +100,7 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 |[OSR](https://www.mdpi.com/1424-8220/20/23/6929)|237|Real|[Example](./Dataset_image/osr/osr.md)|[Link](https://github.com/BingshuCV/DocumentShadowRemoval)|
 |[WEZUT OCR](https://www.mdpi.com/1424-8220/20/10/2914)|176|Real|[Example](./Dataset_image/wezut/wezut.md)|[Link](https://okarma.zut.edu.pl/?id=dataset&L=1)|
 |[SD7K](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|7620 (6479/760)|Real|[Example](./Dataset_image/sd7k/sd7k.md)|[Link](https://github.com/CXH-Research/DocShadow-SD7K)|
+|[SynDocDS](https://www.mdpi.com/1424-8220/24/2/654)|50K (40K/5K)|Synth||[Link](https://github.com/ym4t50/SynDoc4DSFN)|
 
 
 ### 2.3 SOTA
@@ -106,7 +113,44 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 ### 3.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
-|2023|ICCV|[Foreground and Text-lines Aware Document Image Rectification](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023_paper.html)|[Code](https://github.com/xiaomore/Document-Image-Dewarping)|
+|2018|CVPR|[DocUNet: Document Image Unwarping via A Stacked U-Net](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DocUNet_Document_Image_CVPR_2018_paper.pdf)||
+|2019|TOG|[Document Rectification and Illumination Correction using a Patch-based CNN*](https://arxiv.org/pdf/1909.09470.pdf)|[Code](https://github.com/xiaoyu258/DocProj)|
+|2019|ICCV|[DewarpNet: Single-Image Document Unwarping With Stacked 3D and 2D Regression Networks](https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.pdf)|[Code](https://github.com/cvlab-stonybrook/DewarpNet)|[Link](https://drive.google.com/drive/folders/1aPfQHGrGxpuIbYLONydbSkGNygRX2z2P?usp=sharing)|
+|2020|PR|[Geometric Rectification of Document Images using Adversarial Gated Unwarping Network](https://reader.elsevier.com/reader/sd/pii/S0031320320303794?token=52ED03E7C85352F1F088C41DA2BEED447A34798498EBC41ADF333A84742F53C1904FFED32E91578195D63663F9006F3D&originRegion=us-east-1&originCreation=20220801125708)||
+|2020|CVPR|[BEDSR-Net: A Deep Shadow Removal Network From a Single Document Image*](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_BEDSR-Net_A_Deep_Shadow_Removal_Network_From_a_Single_Document_CVPR_2020_paper.pdf)||
+|2020|ECCV|[Can You Read Me Now? Content Aware Rectification using Angle Supervision](https://arxiv.org/pdf/2008.02231.pdf)||
+|2020|DAS|[Dewarping Document Image by Displacement Flow Estimation with Fully Convolutional Network](https://arxiv.org/pdf/2104.06815.pdf)|[Code](https://github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)|
+|2020|BMVC|[Intrinsic Decomposition of Document Images In-the-wild*](https://arxiv.org/pdf/2011.14447.pdf)|[Code](https://github.com/cvlab-stonybrook/DocIIW)|
+|2021|ACM MM|[DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction*](https://arxiv.org/pdf/2110.12942.pdf)|[Code](https://github.com/fh2019ustc/DocTr)|
+|2021|ICCV|[End-to-end Piece-wise Unwarping of Document Images](https://openaccess.thecvf.com/content/ICCV2021/papers/Das_End-to-End_Piece-Wise_Unwarping_of_Document_Images_ICCV_2021_paper.pdf)|[Code](https://github.com/sagniklp/PiecewiseUnwarp)|
+|2021|ICDAR|[Document Dewarping with Control Points](https://arxiv.org/pdf/2203.10543.pdf)|[Code](https://github.com/gwxie/Document-Dewarping-with-Control-Points)|
+|2022|CVPR|[Fourier Document Restoration for Robust Document Dewarping and Recognition](https://openaccess.thecvf.com/content/CVPR2022/papers/Xue_Fourier_Document_Restoration_for_Robust_Document_Dewarping_and_Recognition_CVPR_2022_paper.pdf)|||
+|2022|CVPR|[Revisiting Document Image Dewarping by Grid Regularization](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Revisiting_Document_Image_Dewarping_by_Grid_Regularization_CVPR_2022_paper.pdf)||
+|2022|ACM MM|[Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild](https://arxiv.org/pdf/2207.11515.pdf)||
+|2022|ACM MM|[UDoc-GAN: Unpaired Document Illumination Correction with Background Light Prior*](https://dl.acm.org/doi/abs/10.1145/3503161.3547916)|[Code](https://github.com/harrytea/UDoc-GAN)||
+|2022|SIGGRAPH|[Learning From Documents in the Wild to Improve Document Unwarping](https://dl.acm.org/doi/pdf/10.1145/3528233.3530756)|[Code](https://github.com/cvlab-stonybrook/PaperEdge)|
+|2022|ECCV|[Geometric Representation Learning for Document Image Rectification](https://arxiv.org/pdf/2210.08161.pdf)|[Code](https://github.com/fh2019ustc/DocGeoNet)|
+|2022|ECCV|[Learning an Isometric Surface Parameterization for Texture Unwrapping](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970568.pdf)|[Code](https://github.com/cvlab-stonybrook/Iso-UVField)|
+|2022|Arxiv|[DocScanner: Robust Document Image Rectification with Progressive Learning](https://drive.google.com/file/d/1mmCUj90rHyuO1SmpLt361youh-07Y0sD/view?usp=share_link)|[Code](https://github.com/fh2019ustc/DocScanner)|
+|2022|ICPR|[Document Image Rectification in Complex Scene Using Stacked Siamese Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9956331&casa_token=3EP6PWPjea0AAAAA:5-ijMq2DXm9fcefC_Y4ryNM3d4deZpi_u6EOIjmZ6K-qp4tNwsHq2Y81xbr42aczVvyuR3xZiT_h)||
+|2023|Arxiv|[Geometric Rectification of Creased Document Images based on Isometric Mapping](https://arxiv.org/abs/2212.08365)||
+|2023|IJDAR|[Adaptive Dewarping of Severely Warped Camera-captured Document Images Based on Document Map Generation](https://link.springer.com/content/pdf/10.1007/s10032-022-00425-4.pdf?pdf=button)||
+|2023|TMM|[Deep Unrestricted Document Image Rectification](https://arxiv.org/abs/2304.08796)|[Code](https://github.com/fh2019ustc/DocTr-Plus)|
+|2023|Arxiv|[Neural Document Unwarping using Coupled Grids](https://arxiv.org/pdf/2302.02887.pdf)||
+|2023|IJDAR|[Inv3D: A High-resolution 3D Invoice Dataset for Template-guided Single-image Document Unwarping](https://link.springer.com/article/10.1007/s10032-023-00434-x)|[Code](https://github.com/FelixHertlein/inv3d)|
+|2023|Arxiv|[DocAligner: Annotating Real-world Photographic Document Images by Simply Taking Pictures](https://arxiv.org/pdf/2306.05749.pdf)|[Code](https://github.com/ZZZHANG-jx/DocAligner)|
+|2023|Arxiv|[MataDoc: Margin and Text Aware Document Dewarping for Arbitrary Boundary](https://arxiv.org/pdf/2307.12571)||
+|2023|ICCVW|[Template-guided Illumination Correction for Document Images with Imperfect Geometric Reconstruction](https://openaccess.thecvf.com/content/ICCV2023W/NIVT/papers/Hertlein_Template-Guided_Illumination_Correction_for_Document_Images_with_Imperfect_Geometric_Reconstruction_ICCVW_2023_paper.pdf)|[Code](https://github.com/FelixHertlein/illtrtemplate-model)|
+|2023|ICCV|[Foreground and Text-lines Aware Document Image Rectification](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023_paper.pdf)|[Code](https://github.com/xiaomore/document-image-dewarping)|
+|2023|TAI|[Appearance Enhancement for Camera-captured Document Images in the Wild*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10268585)|[Code](https://github.com/ZZZHANG-jx/GCDRNet)|
+|2023|ACM TOG|[Layout-Aware Single-Image Document Flatening](https://dl.acm.org/doi/pdf/10.1145/3627818)|[Code](https://github.com/BunnySoCrazy/LA-DocFlatten)|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
+|2023|WACV|[DocReal: Robust Document Dewarping of Real-Life Images via Attention-Enhanced Control Point Prediction](https://openaccess.thecvf.com/content/WACV2024/papers/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.pdf)||
+|2023|TCSVT|[Rethinking Supervision in Document Unwarping: A Self-consistent Flow-free Approach](https://ieeexplore.ieee.org/abstract/document/10327775)|||
+|2023|SIGGRAPH|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
+|2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
+
+
+
 
 
 ### 3.2 Dataset
@@ -159,7 +203,6 @@ Comding Soon ...
 
 
 ### 5.2 Datasets
-https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 
 |Dataset|Num.|Type|Example|Download|
 |----|----|----|----|----|
