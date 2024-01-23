@@ -1,8 +1,9 @@
-## Recommendations of Document Image Processing
-<h4 align="center">A curated list of resources dedicated to Document Image Processing</h4>
+![LOGO](logo.png)
+## 📖 Recommendations of Document Image Processing
+This repository contains a paper collection of the methods for document image processing.
 
 
-## Contents
+## 🔥 Contents
 - [1. Appearance Enhancement](#1appearance)
   - [1.1 Papers](#11-papers)
   - [1.2 Datasets](#12-datasets)
@@ -53,7 +54,10 @@ Appearance enhancement (also known as illumination correction) is not limited to
 
 ### 1.3 Apps
 
-[CamScanner](https://www.camscanner.com/), [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html), [Lenovo Smart Scanner](https://static.xue.lenovomm.com/scannerpc.html), [Quark](https://www.quark.cn/)
+- [CamScanner](https://www.camscanner.com/)
+- [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html)
+- [Lenovo Smart Scanner](https://static.xue.lenovomm.com/scannerpc.html)
+- [Quark](https://www.quark.cn/)
 
 ### 1.4 SOTA
 
@@ -910,3 +914,7 @@ https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 </table>
 
 Leave-one-year out (LOYO) strategy means that we consider whole documents of one particular (H-)DIBCO year as a testing dataset, while treat all remaining documents from other years as training data.
+
+
+## ⭐ Star Rising
+[![Star Rising](https://api.star-history.com/svg?repos=ZZZHANG-jx/Recommendations-Document-Image-Processing&type=Timeline)](https://star-history.com/#ZZZHANG-jx/Recommendations-Document-Image-Processing&Timeline)
