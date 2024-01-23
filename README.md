@@ -1,34 +1,34 @@
 ## Recommendations of Document Image Processing
-<h4 align="center">A curated list of resources dedicated to Document Image Enhancement</h4>
+<h4 align="center">A curated list of resources dedicated to Document Image Processing</h4>
 
 
 ## Contents
 - [1. Appearance Enhancement](#1appearance)
-  - [1.1 Papers](#11papers)
-  - [1.2 Datasets](#12datasets)
-  - [1.3 APPs](#13apps)
-  - [1.4 SOTA](#14sota)
-- [2. Deshadow](#2deshadow)
-  - [2.1 Papers](#21papers)
-  - [2.2 Datasets](#22datasets)
-  - [2.3 SOTA](#23sota)
-- [3. Dewarping](#3dewarping)
-  - [3.1 Papers](#31papers)
-  - [3.2 Datasets](#32datasets)
-  - [3.3 SOTA](#33sota)
-- [4. Deblur](#4deblur)
-  - [4.1 Papers](#41papers)
-  - [4.2 Datasets](#42datasets)
-  - [4.3 SOTA](#43sota)
-- [5. Binarization](#5binarization)
-  - [5.1 Papers](#51papers)
-  - [5.2 Datasets](#52datasets)
-  - [5.3 SOTA](#53sota)
+  - [1.1 Papers](#11-papers)
+  - [1.2 Datasets](#12-datasets)
+  - [1.3 APPs](#13-apps)
+  - [1.4 SOTA](#14-sota)
+- [2. Deshadow](#2-deshadow)
+  - [2.1 Papers](#21-papers)
+  - [2.2 Datasets](#22-datasets)
+  - [2.3 SOTA](#23-sota)
+- [3. Dewarping](#3-dewarping)
+  - [3.1 Papers](#31-papers)
+  - [3.2 Datasets](#32-dataset)
+  - [3.3 SOTA](#33-sota)
+- [4. Deblur](#4-deblur)
+  - [4.1 Papers](#41-papers)
+  - [4.2 Datasets](#42-datasets)
+  - [4.3 SOTA](#43-sota)
+- [5. Binarization](#5-binarization)
+  - [5.1 Papers](#51-papers)
+  - [5.2 Datasets](#52-datasets)
+  - [5.3 SOTA](#53-sota)
 
-## <a id='1appearance'>1. Appearance Enhancement</a> 
+## 1. Appearance Enhancement
 Appearance enhancement (also known as illumination correction) is not limited to a specific degradation type and aims to restore a clean appearance similar to that obtained from a scanner or digital born PDF files.
 
-<a id='11papers'>1.1 Papers</a>
+### 1.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|ACM TOG|[Document Rectification and Illumination Correction using a Patch-based CNN](https://dl.acm.org/doi/abs/10.1145/3355089.3356563)|[Code](https://github.com/xiaoyu258/DocProj)|
@@ -41,9 +41,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2023|ICCVW|[Template-guided Illumination Correction for Document Images with Imperfect Geometric Reconstruction](https://openaccess.thecvf.com/content/ICCV2023W/NIVT/html/Hertlein_Template-Guided_Illumination_Correction_for_Document_Images_with_Imperfect_Geometric_Reconstruction_ICCVW_2023_paper.html)|[Code](https://github.com/FelixHertlein/illtrtemplate-model)|
 
 
-
-
-<a id='12datasets'>1.2 Datasets</a>
+### 1.2 Datasets
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
@@ -53,19 +51,12 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |[RealDAE](https://ieeexplore.ieee.org/abstract/document/10268585/)|600 (450/150)|Real|[Example](./Dataset_image/realdae/realdae.md)|[Link](https://github.com/ZZZHANG-jx/GCDRNet)|
 |[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Sythetic|[Example](./Dataset_image/inv3d/inv3d.md)|[Link](https://github.com/FelixHertlein/inv3d)|
 
-<a id='13apps'>1.3 Apps</a> 
+### 1.3 Apps
 
 [CamScanner](https://www.camscanner.com/), [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html), [Lenovo Smart Scanner](https://static.xue.lenovomm.com/scannerpc.html), [Quark](https://www.quark.cn/)
 
-<a id='14sota'>1.4 SOTA</a>
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}s
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style> -->
+### 1.4 SOTA
+
 <table class="tg">
 <thead>
   <tr>
@@ -150,11 +141,10 @@ Appearance enhancement (also known as illumination correction) is not limited to
 </table>
 
 
-
-## <a id='2deshadow'>2. Deshadow</a> 
+## 2. Deshadow
 Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free document images.
 
-<a id='21papers'>2.1 Papers</a>
+### 2.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2018|CVPR|[Document Enhancement Using Visibility Detection](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)|[baidu]()|
@@ -170,10 +160,7 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 |2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[code](https://github.com/CXH-Research/DocShadow-SD7K)|
 
 
-
-
-
-<a id='22datasets'>2.2 Datasets</a>
+### 2.2 Datasets
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
@@ -186,16 +173,8 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 |[SD7K](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|7620 (6479/760)|Real|[Example](./Dataset_image/sd7k/sd7k.md)|[Link](https://github.com/CXH-Research/DocShadow-SD7K)|
 
 
-<a id='23sota'>2.3 SOTA</a>
+### 2.3 SOTA
 
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -449,17 +428,16 @@ Deshadowing aims to eliminate shadows caused by occlusion to obtain shadow-free 
 </table>
 
 
-
-## <a id='3dewarping'>3. Dewarping</a> 
+## 3. Dewarping
 Dewarping, also referred to as geometric rectification, aims to rectify document images that suffer from curves, folds, crumples, perspective/affine deformation and other geometric distortions.
 
-<a id='31papers'>1.1 Papers</a>
+### 3.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2023|ICCV|[Foreground and Text-lines Aware Document Image Rectification](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023_paper.html)|[Code](https://github.com/xiaomore/Document-Image-Dewarping)|
 
 
-<a id='32datasets'>3.2 Dataset</a>
+### 3.2 Dataset
 |Dataset|Num.|Type|Example|Download/Codes|
 |----|----|----|----|----|
 |[DocUNet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DocUNet_Document_Image_CVPR_2018_paper.pdf)|130|Real|[Example](./Dataset_image/rdd/rdd.md)|[Link](https://www3.cs.stonybrook.edu/~cvl/docunet.html)|
@@ -472,16 +450,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|[Example]()|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 
 
+### 3.3 SOTA
+<!-- ### 3.3 SOTA (all the results can be downloaded [here]()) -->
 
-<a id='33sota'>3.3 SOTA</a> (all the results can be downloaded [here]())
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style> -->
 <table class="tg">
 <thead>
   <tr>
@@ -749,10 +720,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 </table>
 
 
+## 4. Deblur
 
-## <a id='4deblur'>4. Deblur</a> 
-
-<a id='41papers'>4.1 Papers</a>
+### 4.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|NIPS|[SVDocNet: Spatially Variant U-Net for Blind Document Deblurring](https://openreview.net/forum?id=Hyx3f65qLS)||
@@ -760,20 +730,13 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2020|TPAMI|[DE-GAN: A Conditional Generative Adversarial Network for Document Enhancement](https://ieeexplore.ieee.org/document/9187695)|[code](https://github.com/dali92002/DE-GAN)|
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
 
-<a id='42datasets'>4.2 Datasets</a>
+### 4.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
 |[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synthetic|[Example](./Dataset_image/tdd/tdd.md)|[Link](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|
 
-<a id='43sota'>4.3 SOTA</a>
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style> -->
+### 4.3 SOTA
+
 <table class="tg">
 <thead>
   <tr>
@@ -813,10 +776,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 </table>
 
 
+## 5. Binarization
 
-## <a id='5Binarization'>5. Binarization</a> 
-
-<a id='51papers'>5.1 Papers</a>
+### 5.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|PR|[DeepOtsu: Document enhancement and binarization using iterative deep learning](https://www.sciencedirect.com/science/article/pii/S0031320319300330)|[code](https://www.ai.rug.nl/~sheng/DeepOtsu.html)|
@@ -828,7 +790,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|IF|[A Novel Degraded Document Binarization Model through Vision Transformer Network](https://www.sciencedirect.com/science/article/pii/S1566253522002597)||
 
 
-<a id='52datasets'>5.2 Datasets</a>
+### 5.2 Datasets
 https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 
 |Dataset|Num.|Type|Example|Download|
@@ -856,16 +818,8 @@ https://www.sciencedirect.com/science/article/pii/S0031320318303091 dataset
 |[Shipping label dataset](https://www.sciencedirect.com/science/article/pii/S0031320322002916)|1082|Real|[Example](./Dataset_image/shipping/shipping.md)|[Link](https://www.dropbox.com/sh/gqqugvclzltfldt/AACNELpHwTW-1bHLZzipxQWja?dl=0)|
 
 
+### 5.3 SOTA
 
-<a id='43sota'>4.3 SOTA</a>
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-</style> -->
 <table class="tg">
 <thead>
   <tr>
