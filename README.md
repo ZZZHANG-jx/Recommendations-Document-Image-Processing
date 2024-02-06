@@ -49,11 +49,11 @@ Appearance enhancement (also known as illumination correction) is not limited to
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
-|[Doc3DShade](https://arxiv.org/abs/2011.14447)|90K|Sythetic|[Example](./Dataset_image/doc3dshade/readme.md)|[Link](https://github.com/cvlab-stonybrook/DocIIW)|
-|[DocProj](https://dl.acm.org/doi/abs/10.1145/3355089.3356563)|2450|Sythetic|[Example](./Dataset_image/docproj/readme.md)|[Link](https://github.com/xiaoyu258/DocProj)|
+|[Doc3DShade](https://arxiv.org/abs/2011.14447)|90K|Synth|[Example](./Dataset_image/doc3dshade/readme.md)|[Link](https://github.com/cvlab-stonybrook/DocIIW)|
+|[DocProj](https://dl.acm.org/doi/abs/10.1145/3355089.3356563)|2450|Synth|[Example](./Dataset_image/docproj/readme.md)|[Link](https://github.com/xiaoyu258/DocProj)|
 |[DocUNet from DocAligner](https://openaccess.thecvf.com/content_cvpr_2018/html/Ma_DocUNet_Document_Image_CVPR_2018_paper.html)|130|Real|[Example](./Dataset_image/docunet_docaligner/readme.md)|[Link](https://www3.cs.stonybrook.edu/~cvl/docunet.html)|
 |[RealDAE](https://ieeexplore.ieee.org/abstract/document/10268585/)|600 (450/150)|Real|[Example](./Dataset_image/realdae/readme.md)|[Link](https://github.com/ZZZHANG-jx/GCDRNet)|
-|[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Sythetic|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
+|[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Synth|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
 
 
 ### 1.3 Apps
@@ -157,7 +157,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[DIW](https://dl.acm.org/doi/abs/10.1145/3528233.3530756)|5K|Real|[Example](./Dataset_image/diw/readme.md)|[Link](https://github.com/cvlab-stonybrook/PaperEdge)|
 |[WarpDoc](https://openaccess.thecvf.com/content/CVPR2022/papers/Xue_Fourier_Document_Restoration_for_Robust_Document_Dewarping_and_Recognition_CVPR_2022_paper.pdf)|1020|Real|[Example](./Dataset_image/warpdoc/warpdoc.md)|[Link](https://sg-vilab.github.io/event/warpdoc)|
 |[DIR300](https://arxiv.org/pdf/2210.08161.pdf)|300|Real|[Example](./Dataset_image/dir300/readme.md)|[Link](https://drive.google.com/drive/folders/1yySouQQ3BlH7OjnUhq4CLuvpX2KXtifX)|
-|[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Sythetic|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
+|[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Synth|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
 |[DICP](https://arxiv.org/pdf/2203.10543.pdf)|-|Synth|-|[Link](https://github.com/gwxie/Document-Dewarping-with-Control-Points)|
 |[DIF](https://arxiv.org/pdf/2104.06815.pdf)|-|Synth|-|[Link](https://github.com/gwxie/Distorted-Image-With-Flow)|
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|-|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
