@@ -182,7 +182,7 @@ Coming Soon ...
 ### 4.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
-|[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synthetic|[Example](./Dataset_image/tdd/tdd.md)|[Link](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|
+|[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synth|[Example](./Dataset_image/tdd/tdd.md)|[Link](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|
 
 ### 4.3 SOTA
 Comding Soon ...
@@ -223,7 +223,7 @@ Comding Soon ...
 |[Synchromedia Multispectral (MSI)](https://www.sciencedirect.com/science/article/pii/S0031320313000642)|240|Real|[Example](./Dataset_image/msi/readme.md)|[Link](https://tc11.cvc.uab.es/datasets/SMADI_1)|
 |[Persian Heritage Image Binarization （PHIBD）](https://ieeexplore.ieee.org/abstract/document/6528442)|15|Real|[Example](./Dataset_image/phibd/readme.md)|[Link](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))|
 |[Palm Leaf]()|50|Real|[Example](./Dataset_image/palm_leaf/readme.md)|[Link](http://amadi.univ-lr.fr/ICFHR2016_Contest/index.php/download-123)|
-|[NoiseOffice]()|216|Synthetic|[Example](./Dataset_image/noise_office/readme.md)|[Link](https://archive.ics.uci.edu/dataset/318/noisyoffice)|
+|[NoiseOffice]()|216|Synth|[Example](./Dataset_image/noise_office/readme.md)|[Link](https://archive.ics.uci.edu/dataset/318/noisyoffice)|
 |[LRDE Document Binarization Dataset](https://link.springer.com/article/10.1007/s10032-013-0209-0)|125|Real|-|[Link](https://www.lrde.epita.fr/wiki/Olena/DatasetDBD)|
 |[Shipping label dataset](https://www.sciencedirect.com/science/article/pii/S0031320322002916)|1082|Real|[Example](./Dataset_image/shipping/shipping.md)|[Link](https://www.dropbox.com/sh/gqqugvclzltfldt/AACNELpHwTW-1bHLZzipxQWja?dl=0)|
 
