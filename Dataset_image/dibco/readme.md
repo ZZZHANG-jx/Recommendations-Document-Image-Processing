@@ -1,0 +1,22 @@
+|Years|Input|GT-Binarized Image|
+|----|----|----|
+|2009|![input](./dibco09/example_1_in.png)|![GT-Flatten Image](./dibco09/example_1_gt.png)|
+|2009|![input](./dibco09/example_2_in.png)|![GT-Flatten Image](./dibco09/example_2_gt.png)|
+|2010|![input](./dibco10/example_1_in.png)|![GT-Flatten Image](./dibco10/example_1_gt.png)|
+|2010|![input](./dibco10/example_2_in.png)|![GT-Flatten Image](./dibco10/example_2_gt.png)|
+|2011|![input](./dibco11/example_1_in.png)|![GT-Flatten Image](./dibco11/example_1_gt.png)|
+|2011|![input](./dibco11/example_2_in.png)|![GT-Flatten Image](./dibco11/example_2_gt.png)|
+|2012|![input](./dibco12/example_1_in.png)|![GT-Flatten Image](./dibco12/example_1_gt.png)|
+|2012|![input](./dibco12/example_2_in.png)|![GT-Flatten Image](./dibco12/example_2_gt.png)|
+|2013|![input](./dibco13/example_1_in.png)|![GT-Flatten Image](./dibco13/example_1_gt.png)|
+|2013|![input](./dibco13/example_2_in.png)|![GT-Flatten Image](./dibco13/example_2_gt.png)|
+|2014|![input](./dibco14/example_1_in.png)|![GT-Flatten Image](./dibco14/example_1_gt.png)|
+|2014|![input](./dibco14/example_2_in.png)|![GT-Flatten Image](./dibco14/example_2_gt.png)|
+|2016|![input](./dibco16/example_1_in.png)|![GT-Flatten Image](./dibco16/example_1_gt.png)|
+|2016|![input](./dibco16/example_2_in.png)|![GT-Flatten Image](./dibco16/example_2_gt.png)|
+|2017|![input](./dibco17/example_1_in.png)|![GT-Flatten Image](./dibco17/example_1_gt.png)|
+|2017|![input](./dibco17/example_2_in.png)|![GT-Flatten Image](./dibco17/example_2_gt.png)|
+|2018|![input](./dibco18/example_1_in.png)|![GT-Flatten Image](./dibco18/example_1_gt.png)|
+|2018|![input](./dibco18/example_2_in.png)|![GT-Flatten Image](./dibco18/example_2_gt.png)|
+|2019|![input](./dibco19/example_1_in.bmp)|![GT-Flatten Image](./dibco19/example_1_gt.bmp)|
+|2019|![input](./dibco19/example_2_in.bmp)|![GT-Flatten Image](./dibco19/example_2_gt.bmp)|
