@@ -74,7 +74,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2018|CVPR|[Document Enhancement Using Visibility Detection](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)|[Code](https://github.com/CV-Reimplementation/Document-Enhancement-using-Visibility-Detection)|
-|2020|CVPR|[BEDSR-Net A Deep Shadow Removal Network from a Single Document Image](https://openaccess.thecvf.com/content_CVPR_2020/html/Lin_BEDSR-Net_A_Deep_Shadow_Removal_Network_From_a_Single_Document_CVPR_2020_paper.html)|[Code*]([http](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image))|
+|2020|CVPR|[BEDSR-Net A Deep Shadow Removal Network from a Single Document Image](https://openaccess.thecvf.com/content_CVPR_2020/html/Lin_BEDSR-Net_A_Deep_Shadow_Removal_Network_From_a_Single_Document_CVPR_2020_paper.html)|[Code*](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image)|
 |2022|ICPR|[Document Shadow Removal with Foreground Detection Learning From Fully Synth Images](https://ieeexplore.ieee.org/abstract/document/9897217)|[Code](https://github.com/IsHYuhi/DSRFGD)|
 |2022|MERCon|[Shadow Removal for Documents with Reflective Textured Surface](https://ieeexplore.ieee.org/abstract/document/9906227)||
 |2023|ICASSP|[ShaDocNet: Learning Spatial-Aware Tokens in Transformer for Document Shadow Removal](https://arxiv.org/abs/2211.16675)|[Code](https://github.com/CXH-Research/ShadocNet)|
@@ -219,7 +219,7 @@ Comding Soon ...
 |[DIBCO 2018](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
 |[DIBCO 2019](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
 |[Bickly-diary](https://dl.acm.org/doi/abs/10.1145/1816123.1816161)|7|Real|[Example](./Dataset_image/bickly/readme.md)|[Link](https://1drv.ms/f/s!Ak15mSdV3Wy4iY4sW5gm7ak4aWjtFQ?e=1l7vRi)|
-|[Synchromedia Multispectral (MSI)](https://www.sciencedirect.com/science/article/pii/S0031320313000642)|240|Real|[Example](./Dataset_image/msi/readme.md)|[Link](ttps://tc11.cvc.uab.es/datasets/SMADI_1)|
+|[Synchromedia Multispectral (MSI)](https://www.sciencedirect.com/science/article/pii/S0031320313000642)|240|Real|[Example](./Dataset_image/msi/readme.md)|[Link](https://tc11.cvc.uab.es/datasets/SMADI_1)|
 |[Persian Heritage Image Binarization （PHIBD）](https://ieeexplore.ieee.org/abstract/document/6528442)|15|Real|[Example](./Dataset_image/phibd/readme.md)|[Link](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))|
 |[Palm Leaf]()|50|Real|[Example](./Dataset_image/palm_leaf/readme.md)|[Link](http://amadi.univ-lr.fr/ICFHR2016_Contest/index.php/download-123)|
 |[NoiseOffice]()|216|Synthetic|[Example](./Dataset_image/noise_office/readme.md)|[Link](https://archive.ics.uci.edu/dataset/318/noisyoffice)|
