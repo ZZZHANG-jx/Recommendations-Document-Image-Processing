@@ -1,0 +1,3 @@
+|Input|GT-Appearance Enhanced|GT-Text Mask|GT-Flatten Image|GT-Backward Map|Forward Map|Depth Map|World Coordinates|
+|----|----|----|----|----|----|----|----|
+|![input](example_1_in.png)|![GT-appearance enhanced](example_1_gt_1.png)|![GT-text mask](example_1_gt_2.png)|![GT-flat document](./example_1_gt_3.png)|![GT-backward map](example_1_gt_4.png)|![forward map](example_1_gt_5.png)|![depth map](example_1_gt_6.png)|![world coordinates](example_1_gt_7.png)|
