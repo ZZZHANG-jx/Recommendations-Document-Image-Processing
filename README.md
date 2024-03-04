@@ -93,13 +93,13 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
-|[RDD](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|4916 (4371/545)|Real|[Example](./Dataset_image/rdd/rdd.md)|[Link](https://github.com/hyyh1314/RDD)|
+|[RDD](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|4916 (4371/545)|Real|[Example](./Dataset_image/rdd/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
 |[Kligler et al.](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)|300|Real|[Example](./Dataset_image/kligler/kligler.md)|[Link](https://pan.baidu.com/s/17s0aD6Aqq9lFI_TTH5PJVg?pwd=3slt)|
 |[FSDSRD](https://ieeexplore.ieee.org/abstract/document/9897217)|14200|Synth|[Example](./Dataset_image/fsdsrd/fsdsrd.md)|[Link](https://github.com/IsHYuhi/DSRFGD)|
 |[Jung et al.](https://link.springer.com/chapter/10.1007/978-3-030-20887-5_25)|87|Real|[Example](./Dataset_image/jung/jung.md)|[Link](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-030-20887-5_25/MediaObjects/484511_1_En_25_MOESM1_ESM.zip)|
 |[OSR](https://www.mdpi.com/1424-8220/20/23/6929)|237|Real|[Example](./Dataset_image/osr/osr.md)|[Link](https://github.com/BingshuCV/DocumentShadowRemoval)|
 |[WEZUT OCR](https://www.mdpi.com/1424-8220/20/10/2914)|176|Real|[Example](./Dataset_image/wezut/wezut.md)|[Link](https://okarma.zut.edu.pl/?id=dataset&L=1)|
-|[SD7K](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|7620 (6479/760)|Real|[Example](./Dataset_image/sd7k/sd7k.md)|[Link](https://github.com/CXH-Research/DocShadow-SD7K)|
+|[SD7K](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|7620 (6479/760)|Real|[Example](./Dataset_image/sd7k/readme.md)|[Link](https://github.com/CXH-Research/DocShadow-SD7K)|
 |[SynDocDS](https://www.mdpi.com/1424-8220/24/2/654)|50K (40K/5K)|Synth||[Link](https://github.com/ym4t50/SynDoc4DSFN)|
 
 
@@ -199,7 +199,6 @@ Comding Soon ...
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
 |2023|ICDAR|[ColDBin: Cold Diffusion for Document Image Binarization](https://link.springer.com/chapter/10.1007/978-3-031-41734-4_13)|[code](https://github.com/saifullah3396/coldbin)|
 |2023|IF|[A Novel Degraded Document Binarization Model through Vision Transformer Network](https://www.sciencedirect.com/science/article/pii/S1566253522002597)||
-|2023|Arxiv|[GDB: Gated convolutions-based Document Binarization](https://arxiv.org/pdf/2302.02073.pdf)||
 |2023|Arxiv|[DocBinFormer: A Two-Level Transformer Network for Effective Document Image Binarization](https://arxiv.org/pdf/2312.03568.pdf)||
 
 
@@ -211,16 +210,16 @@ Comding Soon ...
 |[DocEng 2020]()|32|Real|[Example](./Dataset_image/doceng/doceng.md)|[Link](https://github.com/hyyh1314/RDD)|
 |[DocEng 2021]()|222|Real|[Example](./Dataset_image/doceng/doceng.md)|[Link](https://github.com/hyyh1314/RDD)|
 |[DocEng 2022]()|80|Real|[Example](./Dataset_image/doceng/doceng.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2009](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[H-DIBCO 2010](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2011](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|16|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[H-DIBCO 2012](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|14|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2013](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|16|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[H-DIBCO 2014](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[H-DIBCO 2016](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2017](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|20|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2018](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
-|[DIBCO 2019](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html)|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://github.com/hyyh1314/RDD)|
+|[DIBCO 2009]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://users.iit.demokritos.gr/~bgat/DIBCO2009/benchmark/)|
+|[H-DIBCO 2010]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://users.iit.demokritos.gr/~bgat/H-DIBCO2010/benchmark/)|
+|[DIBCO 2011]()|16|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://utopia.duth.gr/~ipratika/DIBCO2011/benchmark/)|
+|[H-DIBCO 2012]()|14|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://utopia.duth.gr/~ipratika/HDIBCO2012/benchmark/)|
+|[DIBCO 2013]()|16|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://utopia.duth.gr/~ipratika/DIBCO2013/benchmark/)|
+|[H-DIBCO 2014]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://users.iit.demokritos.gr/~bgat/HDIBCO2014/benchmark/)|
+|[H-DIBCO 2016]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://vc.ee.duth.gr/h-dibco2016/benchmark/)|
+|[DIBCO 2017]()|20|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://vc.ee.duth.gr/dibco2017/benchmark/)|
+|[DIBCO 2018]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](http://vc.ee.duth.gr/h-dibco2018/benchmark/)|
+|[DIBCO 2019]()|10|Real|[Example](./Dataset_image/dibco/readme.md)|[Link](https://vc.ee.duth.gr/dibco2019/benchmark/)|
 |[Bickly-diary](https://dl.acm.org/doi/abs/10.1145/1816123.1816161)|7|Real|[Example](./Dataset_image/bickly/readme.md)|[Link](https://1drv.ms/f/s!Ak15mSdV3Wy4iY4sW5gm7ak4aWjtFQ?e=1l7vRi)|
 |[Synchromedia Multispectral (MSI)](https://www.sciencedirect.com/science/article/pii/S0031320313000642)|240|Real|[Example](./Dataset_image/msi/readme.md)|[Link](https://tc11.cvc.uab.es/datasets/SMADI_1)|
 |[Persian Heritage Image Binarization （PHIBD）](https://ieeexplore.ieee.org/abstract/document/6528442)|15|Real|[Example](./Dataset_image/phibd/readme.md)|[Link](http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012))|
