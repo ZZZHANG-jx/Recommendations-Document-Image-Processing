@@ -64,7 +64,87 @@ Appearance enhancement (also known as illumination correction) is not limited to
 - [Quark](https://www.quark.cn/)
 
 ### 1.4 SOTA
-Coming Soon ...
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" rowspan="2">Venue</th>
+    <th class="tg-c3ow" rowspan="2">Methods</th>
+    <th class="tg-c3ow" rowspan="2">Training data</th>
+    <th class="tg-c3ow" colspan="2">DocUNet from DocAligner (130)</th>
+    <th class="tg-c3ow" colspan="2">RealDAE (150)</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">SSIM</th>
+    <th class="tg-c3ow">PSNR</th>
+    <th class="tg-c3ow">SSIM</th>
+    <th class="tg-c3ow">PSNR</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">0.7195</td>
+    <td class="tg-c3ow">13.09</td>
+    <td class="tg-c3ow">0.8264</td>
+    <td class="tg-c3ow">12.26</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">TOG'19</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/1909.09470.pdf">DocProj</a></td>
+    <td class="tg-c3ow">DocProj</td>
+    <td class="tg-c3ow">0.7098</td>
+    <td class="tg-c3ow">14.71</td>
+    <td class="tg-c3ow">0.8684</td>
+    <td class="tg-c3ow">19.35</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">BMVC'20</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2011.14447">Das et al.</a></td>
+    <td class="tg-c3ow">Doc3DShade</td>
+    <td class="tg-c3ow">0.7276</td>
+    <td class="tg-c3ow">16.42</td>
+    <td class="tg-c3ow">0.8633</td>
+    <td class="tg-c3ow">19.87</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MM'21</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2110.12942.pdf">DocTr</a></td>
+    <td class="tg-c3ow">DocProj</td>
+    <td class="tg-c3ow">0.7067</td>
+    <td class="tg-c3ow">15.78</td>
+    <td class="tg-c3ow">0.7925</td>
+    <td class="tg-c3ow">18.62</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MM'22</td>
+    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/abs/10.1145/3503161.3547916">UDoc-GAN</a></td>
+    <td class="tg-c3ow">DocProj</td>
+    <td class="tg-c3ow">0.6833</td>
+    <td class="tg-c3ow">14.29</td>
+    <td class="tg-c3ow">0.7558</td>
+    <td class="tg-c3ow">16.43</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">TAI'23</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10268585/">GCDRNet</a></td>
+    <td class="tg-c3ow">RealDAE</td>
+    <td class="tg-c3ow">0.7658</td>
+    <td class="tg-c3ow">17.09</td>
+    <td class="tg-c3ow">0.9423</td>
+    <td class="tg-c3ow">24.42</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## 2. Deshadow
@@ -105,7 +185,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 
 
 ### 2.3 SOTA
-Coming Soon ...
+Coming soon ...
 
 
 ## 3. Dewarping
@@ -129,7 +209,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2022|SIGGRAPH|[Learning From Documents in the Wild to Improve Document Unwarping](https://dl.acm.org/doi/pdf/10.1145/3528233.3530756)|[Code](https://github.com/cvlab-stonybrook/PaperEdge)|
 |2022|ECCV|[Geometric Representation Learning for Document Image Rectification](https://arxiv.org/pdf/2210.08161.pdf)|[Code](https://github.com/fh2019ustc/DocGeoNet)|
 |2022|ECCV|[Learning an Isometric Surface Parameterization for Texture Unwrapping](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970568.pdf)|[Code](https://github.com/cvlab-stonybrook/Iso-UVField)|
-|2022|Arxiv|[DocScanner: Robust Document Image Rectification with Progressive Learning](https://drive.google.com/file/d/1mmCUj90rHyuO1SmpLt361youh-07Y0sD/view?usp=share_link)|[Code](https://github.com/fh2019ustc/DocScanner)|
+|2022|Arxiv|[DocScanner: Robust Document Image Rectification with Progressive Learning](https://arxiv.org/abs/2110.14968)|[Code](https://github.com/fh2019ustc/DocScanner)|
 |2022|ICPR|[Document Image Rectification in Complex Scene Using Stacked Siamese Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9956331&casa_token=3EP6PWPjea0AAAAA:5-ijMq2DXm9fcefC_Y4ryNM3d4deZpi_u6EOIjmZ6K-qp4tNwsHq2Y81xbr42aczVvyuR3xZiT_h)||
 |2023|Arxiv|[Geometric Rectification of Creased Document Images based on Isometric Mapping](https://arxiv.org/abs/2212.08365)||
 |2023|IJDAR|[Adaptive Dewarping of Severely Warped Camera-captured Document Images Based on Document Map Generation](https://link.springer.com/content/pdf/10.1007/s10032-022-00425-4.pdf?pdf=button)||
@@ -162,10 +242,171 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[DIF](https://arxiv.org/pdf/2104.06815.pdf)|-|Synth|-|[Link](https://github.com/gwxie/Distorted-Image-With-Flow)|
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|-|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 |[DocReal](https://openaccess.thecvf.com/content/WACV2024/html/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.html)|200|Real|[Example](./Dataset_image/docreal/readme.md)|[Link](https://github.com/irisXcoding/DocReal)|
+|[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth||[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
 
 
 ### 3.3 SOTA
-Coming Soon ...
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" rowspan="2">Venue</th>
+    <th class="tg-c3ow" rowspan="2">Method</th>
+    <th class="tg-c3ow" colspan="3">DocUNet (130)</th>
+    <th class="tg-c3ow" colspan="3">DIR300 (300)</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">LD↓</th>
+    <th class="tg-c3ow">AD↓</th>
+    <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">LD↓</th>
+    <th class="tg-c3ow">AD↓</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">ICCV'19</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.html">DewarpNet</a></td>
+    <td class="tg-c3ow">0.474</td>
+    <td class="tg-c3ow">8.39</td>
+    <td class="tg-c3ow">0.426</td>
+    <td class="tg-c3ow">0.492</td>
+    <td class="tg-c3ow">13.94</td>
+    <td class="tg-c3ow">0.331</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">DAS'20</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2104.06815.pdf">FCN-based</a></td>
+    <td class="tg-c3ow">0.448</td>
+    <td class="tg-c3ow">7.84</td>
+    <td class="tg-c3ow">0.434</td>
+    <td class="tg-c3ow">0.503</td>
+    <td class="tg-c3ow">9.75</td>
+    <td class="tg-c3ow">0.331</td>
+  </tr>
+
+  <tr>
+    <td class="tg-c3ow">ICCV'21</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Das_End-to-End_Piece-Wise_Unwarping_of_Document_Images_ICCV_2021_paper.pdf">Piece-Wise</a></td>
+    <td class="tg-c3ow">0.492</td>
+    <td class="tg-c3ow">8.64</td>
+    <td class="tg-c3ow">0.468</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ICDAR'21</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2203.10543.pdf">DDCP</a></td>
+    <td class="tg-c3ow">0.473</td>
+    <td class="tg-c3ow">8.99</td>
+    <td class="tg-c3ow">0.453</td>
+    <td class="tg-c3ow">0.552</td>
+    <td class="tg-c3ow">10.95</td>
+    <td class="tg-c3ow">0.357</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MM'21</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2110.12942.pdf">DocTr</a></td>
+    <td class="tg-c3ow">0.511</td>
+    <td class="tg-c3ow">7.76</td>
+    <td class="tg-c3ow">0.396</td>
+    <td class="tg-c3ow">0.616</td>
+    <td class="tg-c3ow">7.21</td>
+    <td class="tg-c3ow">0.254</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">CVPR'22</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Revisiting_Document_Image_Dewarping_by_Grid_Regularization_CVPR_2022_paper.pdf">RDGR</a></td>
+    <td class="tg-c3ow">0.497</td>
+    <td class="tg-c3ow">8.51</td>
+    <td class="tg-c3ow">0.461</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">MM'22</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2207.11515.pdf">Marior</a></td>
+    <td class="tg-c3ow">0.478</td>
+    <td class="tg-c3ow">7.27</td>
+    <td class="tg-c3ow">0.403</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ECCV'22</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2210.08161.pdf">DocGeoNet</a></td>
+    <td class="tg-c3ow">0.504</td>
+    <td class="tg-c3ow">7.71</td>
+    <td class="tg-c3ow">0.380</td>
+    <td class="tg-c3ow">0.638</td>
+    <td class="tg-c3ow">6.40</td>
+    <td class="tg-c3ow">0.242</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">SIGGRAPH'22</td>
+    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3528233.3530756">PaperEdge</a></td>
+    <td class="tg-c3ow">0.473</td>
+    <td class="tg-c3ow">7.81</td>
+    <td class="tg-c3ow">0.392</td>
+    <td class="tg-c3ow">0.583</td>
+    <td class="tg-c3ow">8.00</td>
+    <td class="tg-c3ow">0.255</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'22</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2110.14968">DocScanner-L</a></td>
+    <td class="tg-c3ow">0.518</td>
+    <td class="tg-c3ow">7.45</td>
+    <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr> 
+  <tr>
+    <td class="tg-c3ow">ICCV'23</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023_paper.pdf">Li et al.</td>
+    <td class="tg-c3ow">0.497</td>
+    <td class="tg-c3ow">8.43</td>
+    <td class="tg-c3ow">0.376</td>
+    <td class="tg-c3ow">0.607</td>
+    <td class="tg-c3ow">7.68</td>
+    <td class="tg-c3ow">0.244</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ACM TOG'23</td>
+    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3627818">LA-DocFlatten</a></td>
+    <td class="tg-c3ow">0.526</td>
+    <td class="tg-c3ow"><b>6.72</b></td>
+    <td class="tg-c3ow"><b>0.300</b></td>
+    <td class="tg-c3ow"><b>0.651</b></td>
+    <td class="tg-c3ow"><b>5.70</b></td>
+    <td class="tg-c3ow"><b>0.195</b></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">SIGGRAPH'23</td>
+    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174">UVDoc</a></td>
+    <td class="tg-c3ow"><b>0.544</b></td>
+    <td class="tg-c3ow">6.83</td>
+    <td class="tg-c3ow">0.315</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
+</table>
+
+Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
 
 
 ## 4. Deblur
