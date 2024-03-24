@@ -368,14 +368,24 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.244</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ACM TOG'23</td>
-    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3627818">LA-DocFlatten</a></td>
-    <td class="tg-c3ow">0.526</td>
-    <td class="tg-c3ow"><b>6.72</b></td>
-    <td class="tg-c3ow"><b>0.300</b></td>
-    <td class="tg-c3ow"><b>0.651</b></td>
-    <td class="tg-c3ow"><b>5.70</b></td>
-    <td class="tg-c3ow"><b>0.195</b></td>
+    <td class="tg-c3ow">TCSVT'23</td>
+    <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10327775">DRNet</a></td>
+    <td class="tg-c3ow">0.51</td>
+    <td class="tg-c3ow">7.42</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">TMM'23</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2304.08796">DocTr++</a></td>
+    <td class="tg-c3ow">0.51</td>
+    <td class="tg-c3ow">7.54</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'23</td>
@@ -386,6 +396,16 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ACM TOG'23</td>
+    <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3627818">LA-DocFlatten</a></td>
+    <td class="tg-c3ow">0.526</td>
+    <td class="tg-c3ow"><b>6.72</b></td>
+    <td class="tg-c3ow"><b>0.300</b></td>
+    <td class="tg-c3ow"><b>0.651</b></td>
+    <td class="tg-c3ow"><b>5.70</b></td>
+    <td class="tg-c3ow"><b>0.195</b></td>
   </tr>
 </tbody>
 </table>
