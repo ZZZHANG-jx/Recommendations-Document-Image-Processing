@@ -130,10 +130,10 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow">TAI'23</td>
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10268585/">GCDRNet</a></td>
     <td class="tg-c3ow">RealDAE</td>
-    <td class="tg-c3ow">0.7658</td>
-    <td class="tg-c3ow">17.09</td>
-    <td class="tg-c3ow">0.9423</td>
-    <td class="tg-c3ow">24.42</td>
+    <td class="tg-c3ow"><b>0.7658</b></td>
+    <td class="tg-c3ow"><b>17.09</b></td>
+    <td class="tg-c3ow"><b>0.9423</b></td>
+    <td class="tg-c3ow"><b>24.42</b></td>
   </tr>
 </tbody>
 </table>
@@ -368,6 +368,16 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.244</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">WACV'23</td>
+    <td class="tg-c3ow"><a href="https://openaccess.thecvf.com/content/WACV2024/papers/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.pdf">DocReal</a></td>
+    <td class="tg-c3ow">0.50</td>
+    <td class="tg-c3ow">7.03</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
     <td class="tg-c3ow">TCSVT'23</td>
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10327775">DRNet</a></td>
     <td class="tg-c3ow">0.51</td>
@@ -388,6 +398,26 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
   </tr>
   <tr>
+    <td class="tg-c3ow">Arxiv'23</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2312.07925">Polar-Doc</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.605</td>
+    <td class="tg-c3ow">7.17</td>
+    <td class="tg-c3ow">0.206</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'23</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2307.12571.pdf">MetaDoc</a></td>
+    <td class="tg-c3ow">0.502</td>
+    <td class="tg-c3ow">7.42</td>
+    <td class="tg-c3ow">0.315</td>
+    <td class="tg-c3ow">0.638</td>
+    <td class="tg-c3ow">5.75</td>
+    <td class="tg-c3ow"><b>0.178</b></td>
+  </tr>
+  <tr>
     <td class="tg-c3ow">SIGGRAPH'23</td>
     <td class="tg-c3ow"><a href="https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174">UVDoc</a></td>
     <td class="tg-c3ow"><b>0.544</b></td>
@@ -405,7 +435,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><b>0.300</b></td>
     <td class="tg-c3ow"><b>0.651</b></td>
     <td class="tg-c3ow"><b>5.70</b></td>
-    <td class="tg-c3ow"><b>0.195</b></td>
+    <td class="tg-c3ow">0.195</td>
   </tr>
 </tbody>
 </table>
