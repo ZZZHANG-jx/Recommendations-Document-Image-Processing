@@ -157,6 +157,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |2023|arxiv|[ShaDocFormer: A Shadow-attentive Threshold Detector with Cascaded Fusion Refiner for document shadow removal](https://arxiv.org/abs/2309.06670)||
 |2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[Code](https://github.com/CXH-Research/DocShadow-SD7K)|
 |2023|Sensors|[Synthetic Document Images with Diverse Shadows for Deep Shadow Removal Networks](https://www.mdpi.com/1424-8220/24/2/654)|[Code](https://github.com/ym4t50/SynDoc4DSFN)|
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
 
 \* indicates that the implementation is unofficial.
 
@@ -453,6 +454,8 @@ Note that the 127th and 128th distorted images in DocUNet benchmark are rotated 
 |2020|TPAMI|[DE-GAN: A Conditional Generative Adversarial Network for Document Enhancement](https://ieeexplore.ieee.org/document/9187695)|[code](https://github.com/dali92002/DE-GAN)|
 |2021|ICCV|[End-to-End Unsupervised Document Image Blind Denoising](https://openaccess.thecvf.com/content/ICCV2021/html/Gangeh_End-to-End_Unsupervised_Document_Image_Blind_Denoising_ICCV_2021_paper.html)||
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
+
 
 ### 4.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
@@ -475,6 +478,8 @@ Comding Soon ...
 |2023|ICDAR|[ColDBin: Cold Diffusion for Document Image Binarization](https://link.springer.com/chapter/10.1007/978-3-031-41734-4_13)|[code](https://github.com/saifullah3396/coldbin)|
 |2023|IF|[A Novel Degraded Document Binarization Model through Vision Transformer Network](https://www.sciencedirect.com/science/article/pii/S1566253522002597)||
 |2023|Arxiv|[DocBinFormer: A Two-Level Transformer Network for Effective Document Image Binarization](https://arxiv.org/pdf/2312.03568.pdf)||
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
+
 
 
 ### 5.2 Datasets
