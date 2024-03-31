@@ -43,6 +43,8 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2023|TAI|[Appearance Enhancement for Camera-captured Document Images in the Wild](https://ieeexplore.ieee.org/abstract/document/10268585/)|[Code](https://github.com/ZZZHANG-jx/GCDRNet)|
 |2023|ICCVW|[Template-guided Illumination Correction for Document Images with Imperfect Geometric Reconstruction](https://openaccess.thecvf.com/content/ICCV2023W/NIVT/html/Hertlein_Template-Guided_Illumination_Correction_for_Document_Images_with_Imperfect_Geometric_Reconstruction_ICCVW_2023_paper.html)|[Code](https://github.com/FelixHertlein/illtrtemplate-model)|
 |2023|arxiv|[DocStormer: Revitalizing Multi-Degraded Colored Document Images to Pristine PDF Versions](https://arxiv.org/abs/2310.17910)||
+|2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
+
 
 
 ### 1.2 Datasets
@@ -190,7 +192,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2018|CVPR|[DocUNet: Document Image Unwarping via A Stacked U-Net](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DocUNet_Document_Image_CVPR_2018_paper.pdf)||
 |2019|TOG|[Document Rectification and Illumination Correction using a Patch-based CNN](https://arxiv.org/pdf/1909.09470.pdf)|[Code](https://github.com/xiaoyu258/DocProj)|
 |2019|ICCV|[DewarpNet: Single-Image Document Unwarping With Stacked 3D and 2D Regression Networks](https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.pdf)|[Code](https://github.com/cvlab-stonybrook/DewarpNet)|[Link](https://drive.google.com/drive/folders/1aPfQHGrGxpuIbYLONydbSkGNygRX2z2P?usp=sharing)|
-|2020|PR|[Geometric Rectification of Document Images using Adversarial Gated Unwarping Network](https://reader.elsevier.com/reader/sd/pii/S0031320320303794?token=52ED03E7C85352F1F088C41DA2BEED447A34798498EBC41ADF333A84742F53C1904FFED32E91578195D63663F9006F3D&originRegion=us-east-1&originCreation=20220801125708)||
+|2020|PR|[Geometric Rectification of Document Images using Adversarial Gated Unwarping Network](https://www.sciencedirect.com/science/article/pii/S0031320320303794)||
 |2020|ECCV|[Can You Read Me Now? Content Aware Rectification using Angle Supervision](https://arxiv.org/pdf/2008.02231.pdf)||
 |2020|DAS|[Dewarping Document Image by Displacement Flow Estimation with Fully Convolutional Network](https://arxiv.org/pdf/2104.06815.pdf)|[Code](https://github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)|
 |2021|ACM MM|[DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction](https://arxiv.org/pdf/2110.12942.pdf)|[Code](https://github.com/fh2019ustc/DocTr)|
@@ -217,6 +219,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|TCSVT|[Rethinking Supervision in Document Unwarping: A Self-consistent Flow-free Approach](https://ieeexplore.ieee.org/abstract/document/10327775)|||
 |2023|SIGGRAPH|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
 |2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
+|2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
 
 
 
