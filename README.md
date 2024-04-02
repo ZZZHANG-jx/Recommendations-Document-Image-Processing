@@ -159,7 +159,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |2023|arxiv|[ShaDocFormer: A Shadow-attentive Threshold Detector with Cascaded Fusion Refiner for document shadow removal](https://arxiv.org/abs/2309.06670)||
 |2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[Code](https://github.com/CXH-Research/DocShadow-SD7K)|
 |2023|Sensors|[Synthetic Document Images with Diverse Shadows for Deep Shadow Removal Networks](https://www.mdpi.com/1424-8220/24/2/654)|[Code](https://github.com/ym4t50/SynDoc4DSFN)|
-|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 
 \* indicates that the implementation is unofficial.
 
@@ -180,7 +180,266 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 
 
 ### 2.3 SOTA
-Coming soon ...
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" rowspan="2">Venue</th>
+    <th class="tg-c3ow" rowspan="2">Method</th>
+    <th class="tg-c3ow" rowspan="2">Training data</th>
+    <th class="tg-c3ow" colspan="3"><a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html">Kligler et al. (300)</a></th>
+    <th class="tg-c3ow" colspan="3"><a href="https://link.springer.com/chapter/10.1007/978-3-030-20887-5_25">Jung et al. (87)</a></th>
+    <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">OSR (237)</a></th>
+    <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">RDD (545)</a></th>
+    <th class="tg-c3ow" colspan="3"><a href="https://www.mdpi.com/1424-8220/20/23/6929">SD7K (760)</a></th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">RMSE↓</th>
+    <th class="tg-c3ow">PSNR↑</th>
+    <th class="tg-c3ow">SSIM↑</th>
+    <th class="tg-c3ow">RMSE↓</th>
+    <th class="tg-c3ow">PSNR↑</th>
+    <th class="tg-c3ow">SSIM↑</th>
+    <th class="tg-c3ow">RMSE↓</th>
+    <th class="tg-c3ow">PSNR↑</th>
+    <th class="tg-c3ow">SSIM↑</th>
+    <th class="tg-c3ow">RMSE↓</th>
+    <th class="tg-c3ow">PSNR↑</th>
+    <th class="tg-c3ow">SSIM↑</th>
+    <th class="tg-c3ow">RMSE↓</th>
+    <th class="tg-c3ow">PSNR↑</th>
+    <th class="tg-c3ow">SSIM↑</th>
+  </tr>
+</thead>
+<tbody>
+</tbody>
+<tbody>
+  <!-- <tr>
+    <td class="tg-c3ow">CVPR'18</td>
+    <td class="tg-c3ow">Kligler et al.</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">22.81</td>
+    <td class="tg-c3ow">21.21</td>
+    <td class="tg-c3ow">0.8058</td>
+    <td class="tg-c3ow">29.06</td>
+    <td class="tg-c3ow">19.05</td>
+    <td class="tg-c3ow">0.8274</td>
+    <td class="tg-c3ow">33.50</td>
+    <td class="tg-c3ow">17.84</td>
+    <td class="tg-c3ow">0.8451</td>
+    <td class="tg-c3ow">37.67</td>
+    <td class="tg-c3ow">16.84</td>
+    <td class="tg-c3ow">0.7668</td>
+  </tr> -->
+  <!-- <tr>
+    <td class="tg-c3ow">CVPR'20</td>
+    <td class="tg-c3ow">BEDSR-Net</td>
+    <td class="tg-c3ow">SDSRD</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">32.90</td>
+    <td class="tg-c3ow">0.9354</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">27.23</td>
+    <td class="tg-c3ow">0.9115</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">CVPR'20</td>
+    <td class="tg-c3ow">BEDSR-Net</td>
+    <td class="tg-c3ow">FSDSRD</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">22.36</td>
+    <td class="tg-c3ow">0.9286</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">22.38</td>
+    <td class="tg-c3ow">0.9464</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">CVPR'20</td>
+    <td class="tg-c3ow">BEDSR-Net</td>
+    <td class="tg-c3ow">RDD</td>
+    <td class="tg-c3ow">6.533</td>
+    <td class="tg-c3ow">28.12</td>
+    <td class="tg-c3ow">0.9320</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">2.937</td>
+    <td class="tg-c3ow">34.928</td>
+    <td class="tg-c3ow">0.973</td>
+  </tr>
+    <td class="tg-c3ow">CVPR'20</td>
+    <td class="tg-c3ow">BEDSR-Net</td>
+    <td class="tg-c3ow">Jung</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">ICIP'22</td>
+    <td class="tg-c3ow">DSRFGD</td>
+    <td class="tg-c3ow">FSDSRD</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">23.02</td>
+    <td class="tg-c3ow">0.9302</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">21.62</td>
+    <td class="tg-c3ow">0.9525</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">ArXiv'23</td>
+    <td class="tg-c3ow">ShaDocFormer</td>
+    <td class="tg-c3ow">RDD</td>
+    <td class="tg-c3ow">13.17</td>
+    <td class="tg-c3ow">26.36</td>
+    <td class="tg-c3ow">0.90</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">8.9</td>
+    <td class="tg-c3ow">29.46</td>
+    <td class="tg-c3ow">0.92</td>  
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>  
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">CVPR'23</td>
+    <td class="tg-c3ow">BGShadeNet_retest</td>
+    <td class="tg-c3ow">RDD</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">35.36</td>
+    <td class="tg-c3ow">17.34</td>
+    <td class="tg-c3ow">0.9040</td>
+    <td class="tg-c3ow">19.72</td>
+    <td class="tg-c3ow">22.64</td>
+    <td class="tg-c3ow">0.9388</td>
+    <td class="tg-c3ow">6.02</td>
+    <td class="tg-c3ow">33.33</td>
+    <td class="tg-c3ow">0.9520</td>    
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">ICASSP'23</td>
+    <td class="tg-c3ow"><a href='https://arxiv.org/abs/2211.16675'>ShaDocNet</a></td>
+    <td class="tg-c3ow">kilger</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">ICASSP'23</td>
+    <td class="tg-c3ow">ShaDocNet</td>
+    <td class="tg-c3ow">Jung</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr> -->
+<tbody>
+  <tr>
+    <td class="tg-c3ow">CVPR'23</td>
+    <td class="tg-c3ow"><a href='https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html'>BGShadowNet</a></td>
+    <td class="tg-c3ow">RDD</td>
+    <td class="tg-c3ow">5.377</td>
+    <td class="tg-c3ow">29.17</td>
+    <td class="tg-c3ow">0.948</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>    
+    <td class="tg-c3ow">2.219</td>
+    <td class="tg-c3ow">37.58</td>
+    <td class="tg-c3ow">0.983</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>    
+  </tr>
+</tbody>
+  <tr>
+    <td class="tg-c3ow">ICCV'23</td>
+    <td class="tg-c3ow"><a href='https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html'>FSENet</a></td>
+    <td class="tg-c3ow">SD7K</td>
+    <td class="tg-c3ow">10.60</td>
+    <td class="tg-c3ow">28.98</td>
+    <td class="tg-c3ow">0.93</td>
+    <td class="tg-c3ow">17.56</td>
+    <td class="tg-c3ow">23.60 </td>
+    <td class="tg-c3ow">0.85</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">10.00</td>
+    <td class="tg-c3ow">28.67</td>
+    <td class="tg-c3ow">0.96</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## 3. Dewarping
@@ -249,6 +508,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow" rowspan="2">Method</th>
     <th class="tg-c3ow" colspan="3">DocUNet (130)</th>
     <th class="tg-c3ow" colspan="3">DIR300 (300)</th>
+    <th class="tg-c3ow" colspan="3">DocReal (200)</th>
   </tr>
   <tr>
     <th class="tg-c3ow">MS-SSIM↑</th>
@@ -257,6 +517,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow">MS-SSIM↑</th>
     <th class="tg-c3ow">LD↓</th>
     <th class="tg-c3ow">AD↓</th>
+    <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">LD↓</th>
   </tr>
 </thead>
 <tbody>
@@ -279,6 +541,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.503</td>
     <td class="tg-c3ow">9.75</td>
     <td class="tg-c3ow">0.331</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
 
   <tr>
@@ -287,6 +551,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.492</td>
     <td class="tg-c3ow">8.64</td>
     <td class="tg-c3ow">0.468</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -300,6 +566,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.552</td>
     <td class="tg-c3ow">10.95</td>
     <td class="tg-c3ow">0.357</td>
+    <td class="tg-c3ow">0.46</td>
+    <td class="tg-c3ow">16.04</td>
   </tr>
   <tr>
     <td class="tg-c3ow">MM'21</td>
@@ -310,6 +578,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.616</td>
     <td class="tg-c3ow">7.21</td>
     <td class="tg-c3ow">0.254</td>
+    <td class="tg-c3ow">0.55</td>
+    <td class="tg-c3ow">12.66</td>    
   </tr>
   <tr>
     <td class="tg-c3ow">CVPR'22</td>
@@ -317,6 +587,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.497</td>
     <td class="tg-c3ow">8.51</td>
     <td class="tg-c3ow">0.461</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -330,6 +602,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">ECCV'22</td>
@@ -340,6 +614,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.638</td>
     <td class="tg-c3ow">6.40</td>
     <td class="tg-c3ow">0.242</td>
+    <td class="tg-c3ow">0.55</td>
+    <td class="tg-c3ow">12.22</td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'22</td>
@@ -350,6 +626,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.583</td>
     <td class="tg-c3ow">8.00</td>
     <td class="tg-c3ow">0.255</td>
+    <td class="tg-c3ow">0.52</td>
+    <td class="tg-c3ow">11.46</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'22</td>
@@ -357,6 +635,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.518</td>
     <td class="tg-c3ow">7.45</td>
     <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -370,6 +650,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.607</td>
     <td class="tg-c3ow">7.68</td>
     <td class="tg-c3ow">0.244</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">WACV'23</td>
@@ -380,12 +662,16 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"><b>0.56</b></td>
+    <td class="tg-c3ow"><b>9.83</b></td>
   </tr>
   <tr>
     <td class="tg-c3ow">TCSVT'23</td>
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10327775">DRNet</a></td>
     <td class="tg-c3ow">0.51</td>
     <td class="tg-c3ow">7.42</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -400,6 +686,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.45</td>
+    <td class="tg-c3ow">19.88</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -410,6 +698,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.605</td>
     <td class="tg-c3ow">7.17</td>
     <td class="tg-c3ow">0.206</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -420,6 +710,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.638</td>
     <td class="tg-c3ow">5.75</td>
     <td class="tg-c3ow"><b>0.178</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'23</td>
@@ -427,6 +719,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><b>0.544</b></td>
     <td class="tg-c3ow">6.83</td>
     <td class="tg-c3ow">0.315</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -440,6 +734,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><b>0.651</b></td>
     <td class="tg-c3ow"><b>5.70</b></td>
     <td class="tg-c3ow">0.195</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
 </tbody>
 </table>
@@ -457,7 +753,7 @@ Note that the 127th and 128th distorted images in DocUNet benchmark are rotated 
 |2020|TPAMI|[DE-GAN: A Conditional Generative Adversarial Network for Document Enhancement](https://ieeexplore.ieee.org/document/9187695)|[code](https://github.com/dali92002/DE-GAN)|
 |2021|ICCV|[End-to-End Unsupervised Document Image Blind Denoising](https://openaccess.thecvf.com/content/ICCV2021/html/Gangeh_End-to-End_Unsupervised_Document_Image_Blind_Denoising_ICCV_2021_paper.html)||
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
-|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 
 
 ### 4.2 Datasets
@@ -481,7 +777,7 @@ Comding Soon ...
 |2023|ICDAR|[ColDBin: Cold Diffusion for Document Image Binarization](https://link.springer.com/chapter/10.1007/978-3-031-41734-4_13)|[code](https://github.com/saifullah3396/coldbin)|
 |2023|IF|[A Novel Degraded Document Binarization Model through Vision Transformer Network](https://www.sciencedirect.com/science/article/pii/S1566253522002597)||
 |2023|Arxiv|[DocBinFormer: A Two-Level Transformer Network for Effective Document Image Binarization](https://arxiv.org/pdf/2312.03568.pdf)||
-|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://drive.google.com/file/d/1F2K9PFLcK77QWtOweXbkV5SQKwxwUTV2/view)|[Code](https://github.com/RylonW/DocNLC)|
+|2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 
 
 
