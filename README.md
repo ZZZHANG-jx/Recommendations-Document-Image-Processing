@@ -479,6 +479,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|SIGGRAPH|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
 |2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
+|2024|ICDAR|Coarse-to-Fine Document Image Registration for Dewarping|[Code](https://github.com/hanquansanren/DIRD)|
 
 
 
@@ -531,6 +532,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.492</td>
     <td class="tg-c3ow">13.94</td>
     <td class="tg-c3ow">0.331</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">DAS'20</td>
