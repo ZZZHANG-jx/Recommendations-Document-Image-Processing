@@ -537,8 +537,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.331</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow">0.600</td>
-    <td class="tg-c3ow">0.187</td>
+    <td class="tg-c3ow">0.589</td>
+    <td class="tg-c3ow">0.193</td>
   </tr>
   <tr>
     <td class="tg-c3ow">DAS'20</td>
@@ -580,8 +580,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.357</td>
     <td class="tg-c3ow">0.46</td>
     <td class="tg-c3ow">16.04</td>
-    <td class="tg-c3ow">0.591</td>
-    <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow">0.585</td>
+    <td class="tg-c3ow">0.290</td>
   </tr>
   <tr>
     <td class="tg-c3ow">MM'21</td>
@@ -594,8 +594,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.254</td>
     <td class="tg-c3ow">0.55</td>
     <td class="tg-c3ow">12.66</td>
-    <td class="tg-c3ow">0.684</td>
-    <td class="tg-c3ow">0.176</td>
+    <td class="tg-c3ow">0.697</td>
+    <td class="tg-c3ow">0.160</td>
   </tr>
   <tr>
     <td class="tg-c3ow">CVPR'22</td>
@@ -608,8 +608,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow">0.603</td>
-    <td class="tg-c3ow">0.314</td>
+    <td class="tg-c3ow">0.610</td>
+    <td class="tg-c3ow">0.280</td>
   </tr>
   <tr>
     <td class="tg-c3ow">MM'22</td>
@@ -636,8 +636,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.242</td>
     <td class="tg-c3ow">0.55</td>
     <td class="tg-c3ow">12.22</td>
-    <td class="tg-c3ow">0.714</td>
-    <td class="tg-c3ow">0.167</td>
+    <td class="tg-c3ow">0.706</td>
+    <td class="tg-c3ow">0.168</td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'22</td>
@@ -762,8 +762,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"><b>0.784</b></td>
-    <td class="tg-c3ow"><b>0.122</b></td>
+    <td class="tg-c3ow"><b>0.785</b></td>
+    <td class="tg-c3ow"><b>0.119</b></td>
   </tr>
   <tr>
     <td class="tg-c3ow">ACM TOG'23</td>
