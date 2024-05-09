@@ -498,7 +498,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[DIF](https://arxiv.org/pdf/2104.06815.pdf)|-|Synth|-|[Link](https://github.com/gwxie/Distorted-Image-With-Flow)|
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|-|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 |[DocReal](https://openaccess.thecvf.com/content/WACV2024/html/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.html)|200|Real|[Example](./Dataset_image/docreal/readme.md)|[Link](https://github.com/irisXcoding/DocReal)|
-|[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth||[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
+|[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth|[Example](./Dataset_image/uvdoc/readme.md)|[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
 
 
 ### 3.3 SOTA
@@ -782,7 +782,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 </tbody>
 </table>
 
-Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
+- Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
+- Note that the UVDoc benchmark reported in our repository is based on the full UVDoc benchmark dataset (reported on the [official github page](https://github.com/tanguymagne/UVDoc)). The results in the paper used only half of the UVDoc benchmark.
 
 
 ## 4. Deblur
