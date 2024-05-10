@@ -498,7 +498,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[DIF](https://arxiv.org/pdf/2104.06815.pdf)|-|Synth|-|[Link](https://github.com/gwxie/Distorted-Image-With-Flow)|
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|-|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 |[DocReal](https://openaccess.thecvf.com/content/WACV2024/html/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.html)|200|Real|[Example](./Dataset_image/docreal/readme.md)|[Link](https://github.com/irisXcoding/DocReal)|
-|[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth||[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
+|[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth|[Example](./Dataset_image/uvdoc/readme.md)|[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
 
 
 ### 3.3 SOTA
@@ -509,7 +509,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow" rowspan="2">Method</th>
     <th class="tg-c3ow" colspan="3">DocUNet (130)</th>
     <th class="tg-c3ow" colspan="3">DIR300 (300)</th>
-    <th class="tg-c3ow" colspan="3">DocReal (200)</th>
+    <th class="tg-c3ow" colspan="2">DocReal (200)</th>
+    <th class="tg-c3ow" colspan="2">UVDoc (50)</th>
   </tr>
   <tr>
     <th class="tg-c3ow">MS-SSIM↑</th>
@@ -520,6 +521,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow">AD↓</th>
     <th class="tg-c3ow">MS-SSIM↑</th>
     <th class="tg-c3ow">LD↓</th>
+    <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">AD↓</th>
   </tr>
 </thead>
 <tbody>
@@ -534,6 +537,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.331</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.589</td>
+    <td class="tg-c3ow">0.193</td>
   </tr>
   <tr>
     <td class="tg-c3ow">DAS'20</td>
@@ -546,6 +551,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.331</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
 
   <tr>
@@ -554,6 +561,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.492</td>
     <td class="tg-c3ow">8.64</td>
     <td class="tg-c3ow">0.468</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -571,6 +580,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.357</td>
     <td class="tg-c3ow">0.46</td>
     <td class="tg-c3ow">16.04</td>
+    <td class="tg-c3ow">0.585</td>
+    <td class="tg-c3ow">0.290</td>
   </tr>
   <tr>
     <td class="tg-c3ow">MM'21</td>
@@ -582,7 +593,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">7.21</td>
     <td class="tg-c3ow">0.254</td>
     <td class="tg-c3ow">0.55</td>
-    <td class="tg-c3ow">12.66</td>    
+    <td class="tg-c3ow">12.66</td>
+    <td class="tg-c3ow">0.697</td>
+    <td class="tg-c3ow">0.160</td>
   </tr>
   <tr>
     <td class="tg-c3ow">CVPR'22</td>
@@ -595,6 +608,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.610</td>
+    <td class="tg-c3ow">0.280</td>
   </tr>
   <tr>
     <td class="tg-c3ow">MM'22</td>
@@ -602,6 +617,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.478</td>
     <td class="tg-c3ow">7.27</td>
     <td class="tg-c3ow">0.403</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -619,6 +636,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.242</td>
     <td class="tg-c3ow">0.55</td>
     <td class="tg-c3ow">12.22</td>
+    <td class="tg-c3ow">0.706</td>
+    <td class="tg-c3ow">0.168</td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'22</td>
@@ -631,6 +650,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.255</td>
     <td class="tg-c3ow">0.52</td>
     <td class="tg-c3ow">11.46</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'22</td>
@@ -638,6 +659,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.518</td>
     <td class="tg-c3ow">7.45</td>
     <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -655,6 +678,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.244</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">WACV'23</td>
@@ -667,12 +692,16 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"><b>0.56</b></td>
     <td class="tg-c3ow"><b>9.83</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">TCSVT'23</td>
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10327775">DRNet</a></td>
     <td class="tg-c3ow">0.51</td>
     <td class="tg-c3ow">7.42</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -691,6 +720,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.45</td>
     <td class="tg-c3ow">19.88</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -701,6 +732,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.605</td>
     <td class="tg-c3ow">7.17</td>
     <td class="tg-c3ow">0.206</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
   </tr>
@@ -715,6 +748,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><b>0.178</b></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">SIGGRAPH'23</td>
@@ -727,6 +762,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"><b>0.785</b></td>
+    <td class="tg-c3ow"><b>0.119</b></td>
   </tr>
   <tr>
     <td class="tg-c3ow">ACM TOG'23</td>
@@ -739,11 +776,14 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.195</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
 </tbody>
 </table>
 
-Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
+- Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
+- Note that the UVDoc benchmark reported in our repository is based on the full UVDoc benchmark dataset (reported on the [official github page](https://github.com/tanguymagne/UVDoc)). The results in the paper used only half of the UVDoc benchmark.
 
 
 ## 4. Deblur
