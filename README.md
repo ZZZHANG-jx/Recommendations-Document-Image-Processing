@@ -44,7 +44,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2023|ICCVW|[Template-guided Illumination Correction for Document Images with Imperfect Geometric Reconstruction](https://openaccess.thecvf.com/content/ICCV2023W/NIVT/html/Hertlein_Template-Guided_Illumination_Correction_for_Document_Images_with_Imperfect_Geometric_Reconstruction_ICCVW_2023_paper.html)|[Code](https://github.com/FelixHertlein/illtrtemplate-model)|
 |2023|arxiv|[DocStormer: Revitalizing Multi-Degraded Colored Document Images to Pristine PDF Versions](https://arxiv.org/abs/2310.17910)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
-
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 
 
 ### 1.2 Datasets
@@ -133,9 +133,18 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10268585/">GCDRNet</a></td>
     <td class="tg-c3ow">RealDAE</td>
     <td class="tg-c3ow"><b>0.7658</b></td>
-    <td class="tg-c3ow"><b>17.09</b></td>
+    <td class="tg-c3ow">17.09</td>
     <td class="tg-c3ow"><b>0.9423</b></td>
-    <td class="tg-c3ow"><b>24.42</b></td>
+    <td class="tg-c3ow">24.42</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">CVPR'24</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2405.04408">DocRes</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.7598</td>
+    <td class="tg-c3ow"><b>17.60</b></td>
+    <td class="tg-c3ow">0.9219</td>
+    <td class="tg-c3ow"><b>24.65</b></td>
   </tr>
 </tbody>
 </table>
@@ -160,7 +169,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |2023|ICCV|[High-Resolution Document Shadow Removal via A Large-Scale Real-World Dataset and A Frequency-Aware Shadow Erasing Net](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|[Code](https://github.com/CXH-Research/DocShadow-SD7K)|
 |2023|Sensors|[Synthetic Document Images with Diverse Shadows for Deep Shadow Removal Networks](https://www.mdpi.com/1424-8220/24/2/654)|[Code](https://github.com/ym4t50/SynDoc4DSFN)|
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
-
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 \* indicates that the implementation is unofficial.
 
 
@@ -439,6 +448,28 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
     <td class="tg-c3ow">0.96</td>
   </tr>
 </tbody>
+</tbody>
+  <tr>
+    <td class="tg-c3ow">CVPR'24</td>
+    <td class="tg-c3ow"><a href='https://arxiv.org/pdf/2405.04408'>DocRes</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">27.14</td>
+    <td class="tg-c3ow">0.900</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">23.02</td>
+    <td class="tg-c3ow">0.908</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">21.64</td>
+    <td class="tg-c3ow">0.937</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
 </table>
 
 
@@ -480,7 +511,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
 |2024|ICDAR|Coarse-to-Fine Document Image Registration for Dewarping|[Code](https://github.com/hanquansanren/DIRD)|
-
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 
 
 
@@ -779,6 +810,20 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
   </tr>
+  <tr>
+    <td class="tg-c3ow">CVPR'24</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2405.04408">DocRes</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.626</td>
+    <td class="tg-c3ow">6.83</td>
+    <td class="tg-c3ow">0.241</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
 </tbody>
 </table>
 
@@ -797,7 +842,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2021|ICCV|[End-to-End Unsupervised Document Image Blind Denoising](https://openaccess.thecvf.com/content/ICCV2021/html/Gangeh_End-to-End_Unsupervised_Document_Image_Blind_Denoising_ICCV_2021_paper.html)||
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
-
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 
 ### 4.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
@@ -821,7 +866,7 @@ Comding Soon ...
 |2023|IF|[A Novel Degraded Document Binarization Model through Vision Transformer Network](https://www.sciencedirect.com/science/article/pii/S1566253522002597)||
 |2023|Arxiv|[DocBinFormer: A Two-Level Transformer Network for Effective Document Image Binarization](https://arxiv.org/pdf/2312.03568.pdf)||
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
-
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 
 
 ### 5.2 Datasets
