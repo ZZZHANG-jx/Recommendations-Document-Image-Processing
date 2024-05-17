@@ -844,6 +844,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|ACM MM|[DocDiff: Document Enhancement via Residual Diffusion ModelscDiff](https://arxiv.org/abs/2305.03892)|[code](https://github.com/Royalvice/DocDiff)|
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
+|2024|Arxiv|[NAF-DPM: A Nonlinear Activation-Free Diffusion Probabilistic Model for Document Enhancement](https://arxiv.org/abs/2404.05669)|[Code](https://github.com/ispamm/NAF-DPM)|
 
 ### 4.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
@@ -868,6 +869,7 @@ Comding Soon ...
 |2023|Arxiv|[DocBinFormer: A Two-Level Transformer Network for Effective Document Image Binarization](https://arxiv.org/pdf/2312.03568.pdf)||
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
+|2024|Arxiv|[NAF-DPM: A Nonlinear Activation-Free Diffusion Probabilistic Model for Document Enhancement](https://arxiv.org/abs/2404.05669)|[Code](https://github.com/ispamm/NAF-DPM)|
 
 
 ### 5.2 Datasets
