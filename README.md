@@ -170,6 +170,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |2023|Sensors|[Synthetic Document Images with Diverse Shadows for Deep Shadow Removal Networks](https://www.mdpi.com/1424-8220/24/2/654)|[Code](https://github.com/ym4t50/SynDoc4DSFN)|
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
+|2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
 
 \* indicates that the implementation is unofficial.
 
@@ -186,6 +187,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |[WEZUT OCR](https://www.mdpi.com/1424-8220/20/10/2914)|176|Real|[Example](./Dataset_image/wezut/wezut.md)|[Link](https://okarma.zut.edu.pl/?id=dataset&L=1)|
 |[SD7K](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)|7620 (6479/760)|Real|[Example](./Dataset_image/sd7k/readme.md)|[Link](https://github.com/CXH-Research/DocShadow-SD7K)|
 |[SynDocDS](https://www.mdpi.com/1424-8220/24/2/654)|50K (40K/5K)|Synth||[Link](https://github.com/ym4t50/SynDoc4DSFN)|
+
 
 
 
@@ -513,6 +515,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
 |2024|ICDAR|Coarse-to-Fine Document Image Registration for Dewarping|[Code](https://github.com/hanquansanren/DIRD)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
+|2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
 
 
 
@@ -803,7 +806,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.526</td>
     <td class="tg-c3ow"><b>6.72</b></td>
     <td class="tg-c3ow"><b>0.300</b></td>
-    <td class="tg-c3ow"><b>0.651</b></td>
+    <td class="tg-c3ow">0.651</td>
     <td class="tg-c3ow"><b>5.70</b></td>
     <td class="tg-c3ow">0.195</td>
     <td class="tg-c3ow"></td>
@@ -820,6 +823,20 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.626</td>
     <td class="tg-c3ow">6.83</td>
     <td class="tg-c3ow">0.241</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">IJDAR'24</td>
+    <td class="tg-c3ow"><a href="https://link.springer.com/article/10.1007/s10032-024-00476-9">DocTLNet</a></td>
+    <td class="tg-c3ow">0.51</td>
+    <td class="tg-c3ow"> 6.70</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"><b>0.658</b></td>
+    <td class="tg-c3ow">5.75</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
