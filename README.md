@@ -41,6 +41,7 @@ Document registration (also known as document alignment) aims to densely map two
 |2023|IJDAR|[Inv3D: a high-resolution 3D invoice dataset for template-guided single-image document unwarping](https://link.springer.com/article/10.1007/s10032-023-00434-x)|[Code](https://felixhertlein.github.io/inv3d)|
 |2023|Arxiv|[DocAligner: Annotating real-world photographic document images by simply taking pictures](https://arxiv.org/abs/2306.05749)|[Code](https://github.com/ZZZHANG-jx/DocAligner)|
 |2024|ACM MM|[Document Registration: Towards Automated Labeling of Pixel-Level Alignment Between Warped-Flat Documents](https://openreview.net/forum?id=EjjY5yJzQG)||
+|2024|ICDAR|[Coarse-to-Fine Document Image Registration for Dewarping](https://link.springer.com/chapter/10.1007/978-3-031-70546-5_20)|[Code](https://github.com/hanquansanren/DIRD)|
 
 ### 1.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
@@ -557,10 +558,10 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|SIGGRAPH|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
 |2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
-|2024|ICDAR|Coarse-to-Fine Document Image Registration for Dewarping|[Code](https://github.com/hanquansanren/DIRD)|
+|2024|ICDAR|[Coarse-to-Fine Document Image Registration for Dewarping](https://link.springer.com/chapter/10.1007/978-3-031-70546-5_20)|[Code](https://github.com/hanquansanren/DIRD)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 |2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
-
+|2024|ACM MM|[Document Registration: Towards Automated Labeling of Pixel-Level Alignment Between Warped-Flat Documents](https://openreview.net/forum?id=EjjY5yJzQG)||
 
 
 
@@ -579,6 +580,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[Simulated Paper](https://dl.acm.org/doi/pdf/10.1145/3627818)|90K|Synth|-|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 |[DocReal](https://openaccess.thecvf.com/content/WACV2024/html/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.html)|200|Real|[Example](./Dataset_image/docreal/readme.md)|[Link](https://github.com/irisXcoding/DocReal)|
 |[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth|[Example](./Dataset_image/uvdoc/readme.md)|[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
+|[WarpDoc-R](https://openreview.net/forum?id=EjjY5yJzQG)|840|Real|||
+
 
 
 ### 4.3 SOTA
