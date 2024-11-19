@@ -893,7 +893,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 </tbody>
 </table>
 
-- Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which do not match the ground truth documents. The performance reported here is based on corrected data.
+- Note that the 127th and 128th distorted images in DocUNet benchmark are rotated by 180 degrees, which does not match the ground truth documents. The performance reported here is based on corrected data.
 - Note that the UVDoc benchmark reported in our repository is based on the full UVDoc benchmark dataset (reported on the [official github page](https://github.com/tanguymagne/UVDoc)). The results in the paper used only half of the UVDoc benchmark.
 
 
@@ -914,10 +914,10 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 ### 5.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
-|[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synth|[Example](./Dataset_image/tdd/tdd.md)|[Link1](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/), [Link2](https://onedrive.live.com/?authkey=%21AM6BDLM29oRpcW0&cid=B86CDD552799794D&id=B86CDD552799794D%21153425&parId=B86CDD552799794D%21145308&o=OneUp)|
+|[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synth|[Example](./Dataset_image/tdd/tdd.md)|[Link1](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/), [Link2](https://1drv.ms/u/c/b86cdd552799794d/EQoovhEeCLVMpaeZyVWQyOoBBRsPGXHYOHteZ78q_XYszw?e=fs31YD)|
 
 ### 5.3 SOTA
-Comding Soon ...
+Coming Soon ...
 
 ## 6. Binarization
 
