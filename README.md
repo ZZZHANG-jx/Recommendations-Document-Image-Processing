@@ -12,8 +12,7 @@ This repository contains a paper collection of the methods for document image pr
 - [2. Appearance Enhancement](#2-appearance-enhancement)
   - [2.1 Papers](#21-papers)
   - [2.2 Datasets](#22-datasets)
-  - [2.3 Apps](#23-apps)
-  - [2.4 SOTA](#24-sota)
+  - [2.3 SOTA](#24-sota)
 - [3. Deshadow](#3-deshadow)
   - [3.1 Papers](#31-papers)
   - [3.2 Datasets](#32-datasets)
@@ -30,7 +29,12 @@ This repository contains a paper collection of the methods for document image pr
   - [6.1 Papers](#61-papers)
   - [6.2 Datasets](#62-datasets)
   - [6.3 SOTA](#63-sota)
-- [⭐ Star Rising](#-star-rising)
+- [7. Handwritten Text Erasure](#7-handwritten-text-erasure)
+  - [7.1 Papers](#71-papers)
+  - [7.2 Datasets](#72-datasets)
+- [8. APP & Project & Tool](#8-app--project--tool)
+
+- [⭐ Star Rising](#star-rising)
 
 ## 1. Registration
 Document registration (also known as document alignment) aims to densely map two document images with the same content (such as a scanned and photographed version of the same document). It has important applications in automated data annotation and template-based dewarping tasks.
@@ -103,14 +107,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Synth|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
 
 
-### 2.3 Apps
-
-- [CamScanner](https://www.camscanner.com/)
-- [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html)
-- [Lenovo Smart Scanner](https://static.xue.lenovomm.com/scannerpc.html)
-- [Quark](https://www.quark.cn/)
-
-### 2.4 SOTA
+### 2.3 SOTA
 <table class="tg">
 <thead>
   <tr>
@@ -967,6 +964,36 @@ Coming Soon ...
 ### 6.3 SOTA
 Coming Soon ...
 
+
+## 7. Handwritten Text Erasure
+This task aims to erase the handwritten text in the document image. 
+
+### 7.1 Papers
+|Year|Venue|Title|Repo|
+|----|----|-----|----|
+|2022|PRCV|[CHENet: Image to Image Chinese Handwriting Eraser](https://link.springer.com/chapter/10.1007/978-3-031-18916-6_4)||
+|2023|ICDAR|[EnsExam: A Dataset for Handwritten Text Erasure on Examination Papers](https://link.springer.com/chapter/10.1007/978-3-031-41682-8_29)|[Code](https://github.com/SCUT-DLVCLab/SCUT-EnsExam)|
+|2024|IJDAR|[Scene handwritten text erasure based on multi-scale feature fusion](https://link.springer.com/article/10.1007/s10032-024-00509-3)||
+### 7.2 Datasets
+|Dataset|Num. (train/test)|Type|Example|Download|
+|----|----|----|----|----|
+|[百度网盘AI大赛：手写文字擦除](https://aistudio.baidu.com/aistudio/competition/detail/129/0/introduction)|1281 (1081/200)|Real|[Example](./Dataset_image/baidu_handwritten_erase/baidu_handwritten_erase.md)|[Link](https://aistudio.baidu.com/aistudio/datasetdetail/121039)|
+|[CH-dataset](https://link.springer.com/chapter/10.1007/978-3-031-18916-6_4)|1623 (1423/200)|Real|||
+|[EnsExam](https://link.springer.com/chapter/10.1007/978-3-031-41682-8_29)|545 (430/115)|Real|[Example](./Dataset_image/ensexam/ensexam.md)|[Link](https://github.com/SCUT-DLVCLab/SCUT-EnsExam)|
+|[SignaTR6K](https://openaccess.thecvf.com/content/ICCV2023/html/Gholamian_Handwritten_and_Printed_Text_Segmentation_A_Signature_Case_Study_ICCV_2023_paper.html)|6257 (5169/558/530)|Real|[Example](./Dataset_image/signatr6k/signatr6k.md)|[Link](https://forms.office.com/r/2a5RDg7cAY)| 
+
+
+## 8. APP & Project & Tool
+|APP & Project & Tool|Developer|Platform|
+|----|----|----|
+|[CamScanner (扫描全能王)](https://www.camscanner.com/)|INTSIG|ios, Android| 
+|[Quark (夸克扫描王)](https://scan.quark.cn/?stay=1)|Dongyue|ios, Android, Web|
+|[WPS Office](https://bbs.wps.cn/topic/41440)|KINGSOFT OFFICE|ios, Android|
+|[Adobe Acrobat](https://helpx.adobe.com/acrobat/using/enhance-camera-images.html)|Adobe|Windows|
+|[Adobe Scan](https://www.adobe.com/acrobat/mobile/scanner-app.html)|Adobe|ios, Android|
+|[Lenovo Smart Scanner (联想扫描王)](https://static.xue.lenovomm.com/scannerpc.html)|Lenovo|ios, Android|
+
+<a id="star-rising"></a>
 
 ## ⭐ Star Rising
 [![Star Rising](https://api.star-history.com/svg?repos=ZZZHANG-jx/Recommendations-Document-Image-Processing&type=Timeline)](https://star-history.com/#ZZZHANG-jx/Recommendations-Document-Image-Processing&Timeline)
