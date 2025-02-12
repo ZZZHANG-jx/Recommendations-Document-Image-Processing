@@ -559,6 +559,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 |2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
 |2024|ACM MM|[Document Registration: Towards Automated Labeling of Pixel-Level Alignment Between Warped-Flat Documents](https://openreview.net/forum?id=EjjY5yJzQG)||
+|2025|ICMM|[DocMamba: Robust Document Image Dewarping via Selective State Space Sequence Modeling](https://link.springer.com/chapter/10.1007/978-981-96-2054-8_23)||
 
 
 
@@ -578,6 +579,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[DocReal](https://openaccess.thecvf.com/content/WACV2024/html/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.html)|200|Real|[Example](./Dataset_image/docreal/readme.md)|[Link](https://github.com/irisXcoding/DocReal)|
 |[UVDoc](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|20K|Synth|[Example](./Dataset_image/uvdoc/readme.md)|[Link](https://github.com/tanguymagne/UVDoc-Dataset)|
 |[WarpDoc-R](https://openreview.net/forum?id=EjjY5yJzQG)|840|Real|||
+|[UDIR](https://ieeexplore.ieee.org/document/10374269)|195|Real|[Example](./Dataset_image/udir/readme.md)|[Link](https://github.com/fh2019ustc/DocTr-Plus)|
+|[Dataset from DocAligner](https://arxiv.org/abs/2306.05749)|4568|Real|[Example](./Dataset_image/dewarp_docaligner/readme.md)|[Link](https://github.com/ZZZHANG-jx/DocAligner)|
 
 
 
@@ -849,7 +852,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">ACM TOG'23</td>
     <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3627818">LA-DocFlatten</a></td>
     <td class="tg-c3ow">0.526</td>
-    <td class="tg-c3ow"><b>6.72</b></td>
+    <td class="tg-c3ow">6.72</td>
     <td class="tg-c3ow"><b>0.300</b></td>
     <td class="tg-c3ow">0.651</td>
     <td class="tg-c3ow"><b>5.70</b></td>
@@ -877,11 +880,25 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">IJDAR'24</td>
     <td class="tg-c3ow"><a href="https://link.springer.com/article/10.1007/s10032-024-00476-9">DocTLNet</a></td>
     <td class="tg-c3ow">0.51</td>
-    <td class="tg-c3ow"> 6.70</td>
+    <td class="tg-c3ow"><b>6.70</b></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"><b>0.658</b></td>
     <td class="tg-c3ow">5.75</td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ICMM'25</td>
+    <td class="tg-c3ow"><a href="https://link.springer.com/chapter/10.1007/978-981-96-2054-8_23">DocMamba</a></td>
+    <td class="tg-c3ow">0.5292</td>
+    <td class="tg-c3ow">7.07</td>
+    <td class="tg-c3ow">0.3381</td>
+    <td class="tg-c3ow">0.6319</td>
+    <td class="tg-c3ow">6.57</td>
+    <td class="tg-c3ow">0.1941</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
