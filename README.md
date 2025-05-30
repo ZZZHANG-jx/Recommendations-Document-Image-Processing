@@ -94,7 +94,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2023|arxiv|[DocStormer: Revitalizing Multi-Degraded Colored Document Images to Pristine PDF Versions](https://arxiv.org/abs/2310.17910)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
-
+|2025|arxiv|[GL-PGENet: A Parameterized Generation Framework for Robust Document Image Enhancement](https://arxiv.org/pdf/2505.22021)||
 
 ### 2.2 Datasets
 
