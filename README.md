@@ -597,11 +597,12 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2025|Arxiv|[DvD: Unleashing a Generative Paradigm for Document Dewarping via Coordinates-based Diffusion Model](https://arxiv.org/abs/2505.21975)||
 |2025|CVPRW|[Document Image Rectification using Stable Diffusion Transformer](https://openaccess.thecvf.com/content/CVPR2025W/WiCV/html/Kumari_Document_Image_Rectification_using_Stable_Diffusion_Transformer_CVPRW_2025_paper.html)||
 |2025|Arxiv|[Dual Dimensions Geometric Representation Learning Based Document Dewarping](https://arxiv.org/abs/2507.08492)||
-|2025|Arxiv|[Axis-Aligned Document Dewarping](https://arxiv.org/abs/2507.15000)||
 |2025|ICCV|[ForCenNet: Foreground-Centric Network for Document Image Rectification](https://arxiv.org/abs/2507.19804)|[Code](https://github.com/caipeng328/ForCenNet)|
 |2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
 |2025|Arxiv|[TADoc: Robust Time-Aware Document Image Dewarping](https://arxiv.org/abs/2508.06988)||
 |2026|Arxiv|[BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/pdf/2601.21938)||
+|2026|AAAI|[Axis-Aligned Document Dewarping](https://arxiv.org/abs/2507.15000)|[Code](https://github.com/chaoyunwang/AADD)|
+|2026|TMM|[Cascaded Robust Rectification for Arbitrary Document Images](https://arxiv.org/abs/2511.23150)|[Code](https://github.com/chaoyunwang/ArbDR)|
 <!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
 ### 4.2 Dataset
