@@ -9,30 +9,33 @@ This repository contains a paper collection of the methods for document image pr
   - [1.1 Papers](#11-papers)
   - [1.2 Datasets](#12-datasets)
   - [1.3 SOTA](#13-sota)
-- [2. Appearance Enhancement](#2-appearance-enhancement)
+- [2. All in One](#2-all-in-one)
   - [2.1 Papers](#21-papers)
   - [2.2 Datasets](#22-datasets)
-  - [2.3 SOTA](#24-sota)
-- [3. Deshadow](#3-deshadow)
+- [3. Appearance Enhancement](#3-appearance-enhancement)
   - [3.1 Papers](#31-papers)
   - [3.2 Datasets](#32-datasets)
   - [3.3 SOTA](#33-sota)
-- [4. Dewarping](#4-dewarping)
+- [4. Deshadow](#4-deshadow)
   - [4.1 Papers](#41-papers)
-  - [4.2 Dataset](#42-dataset)
+  - [4.2 Datasets](#42-datasets)
   - [4.3 SOTA](#43-sota)
-- [5. Deblur](#5-deblur)
+- [5. Dewarping](#5-dewarping)
   - [5.1 Papers](#51-papers)
-  - [5.2 Datasets](#52-datasets)
+  - [5.2 Dataset](#52-dataset)
   - [5.3 SOTA](#53-sota)
-- [6. Binarization](#6-binarization)
+- [6. Deblur](#6-deblur)
   - [6.1 Papers](#61-papers)
   - [6.2 Datasets](#62-datasets)
   - [6.3 SOTA](#63-sota)
-- [7. Handwritten Text Erasure](#7-handwritten-text-erasure)
+- [7. Binarization](#7-binarization)
   - [7.1 Papers](#71-papers)
   - [7.2 Datasets](#72-datasets)
-- [8. APP & Project & Tool](#8-app--project--tool)
+  - [7.3 SOTA](#73-sota)
+- [8. Handwritten Text Erasure](#8-handwritten-text-erasure)
+  - [8.1 Papers](#81-papers)
+  - [8.2 Datasets](#82-datasets)
+- [9. APP & Project & Tool](#9-app--project--tool)
 
 - [⭐ Star Rising](#star-rising)
 
@@ -76,11 +79,25 @@ Document registration (also known as document alignment) aims to densely map two
 </tbody>
 </table>
 
-
-## 2. Appearance Enhancement
-Appearance enhancement (also known as illumination correction) is not limited to a specific degradation type and aims to restore a clean appearance similar to that obtained from a scanner or digital born PDF files.
+## 2. All in One 
+This line of research aims to tackle multiple document enhancement tasks simultaneously using a single unified model. 
 
 ### 2.1 Papers
+|Year|Venue|Title|Repo|
+|----|----|-----|----|
+|2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
+|2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
+|2026|CVPR|[MMDIR: Multimodal Instruction-Driven Framework for Mixed-Degradation Document Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Li_MMDIR_Multimodal_Instruction-Driven_Framework_for_Mixed-Degradation_Document_Image_Restoration_CVPR_2026_paper.html)|[Code](https://github.com/xiaomore/MMDIR)|
+
+### 2.2 Datasets
+|Dataset|Num. (train/test)|Type|Example|Download|
+|----|----|----|----|----|
+|[MixedDoc](https://openaccess.thecvf.com/content/CVPR2026/html/Li_MMDIR_Multimodal_Instruction-Driven_Framework_for_Mixed-Degradation_Document_Image_Restoration_CVPR_2026_paper.html)|1837 (0/1837)|Synth||[Link](https://github.com/xiaomore/MMDIR)|
+
+## 3. Appearance Enhancement
+Appearance enhancement (also known as illumination correction) is not limited to a specific degradation type and aims to restore a clean appearance similar to that obtained from a scanner or digital born PDF files.
+
+### 3.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|ACM TOG|[Document Rectification and Illumination Correction using a Patch-based CNN](https://dl.acm.org/doi/abs/10.1145/3355089.3356563)|[Code](https://github.com/xiaoyu258/DocProj)|
@@ -96,7 +113,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 |2025|arxiv|[GL-PGENet: A Parameterized Generation Framework for Robust Document Image Enhancement](https://arxiv.org/pdf/2505.22021)||
 
-### 2.2 Datasets
+### 3.2 Datasets
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
@@ -107,7 +124,7 @@ Appearance enhancement (also known as illumination correction) is not limited to
 |[Inv3D](https://link.springer.com/article/10.1007/s10032-023-00434-x)|25K|Synth|[Example](./Dataset_image/inv3d/readme.md)|[Link](https://github.com/FelixHertlein/inv3d)|
 
 
-### 2.3 SOTA
+### 3.3 SOTA
 <table class="tg">
 <thead>
   <tr>
@@ -201,10 +218,10 @@ Appearance enhancement (also known as illumination correction) is not limited to
 </table>
 
 
-## 3. Deshadow
+## 4. Deshadow
 Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obtain shadow-free document images.
 
-### 3.1 Papers
+### 4.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2018|CVPR|[Document Enhancement Using Visibility Detection](https://openaccess.thecvf.com/content_cvpr_2018/html/Kligler_Document_Enhancement_Using_CVPR_2018_paper.html)|[Code](https://github.com/CV-Reimplementation/Document-Enhancement-using-Visibility-Detection)|
@@ -227,7 +244,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 \* indicates that the implementation is unofficial.
 
 
-### 3.2 Datasets
+### 4.2 Datasets
 
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
@@ -243,7 +260,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 
 
 
-### 3.3 SOTA
+### 4.3 SOTA
 <table class="tg">
 <thead>
   <tr>
@@ -550,10 +567,10 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 </table>
 
 
-## 4. Dewarping
+## 5. Dewarping
 Dewarping, also referred to as geometric rectification, aims to rectify document images that suffer from curves, folds, crumples, perspective/affine deformation and other geometric distortions.
 
-### 4.1 Papers
+### 5.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2018|CVPR|[DocUNet: Document Image Unwarping via A Stacked U-Net](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DocUNet_Document_Image_CVPR_2018_paper.pdf)||
@@ -594,18 +611,20 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2025|ICMM|[DocMamba: Robust Document Image Dewarping via Selective State Space Sequence Modeling](https://link.springer.com/chapter/10.1007/978-981-96-2054-8_23)||
 |2025|ICCASP|[Vision Mamba-Based Approach for Incomplete Boundary Document Image Rectification](https://ieeexplore.ieee.org/abstract/document/10889411)||
 |2025|Arxiv|[Document Image Rectification Bases on Self-Adaptive Multitask Fusion](https://arxiv.org/pdf/2505.06038)||
-|2025|Arxiv|[DvD: Unleashing a Generative Paradigm for Document Dewarping via Coordinates-based Diffusion Model](https://arxiv.org/abs/2505.21975)||
+|2025|SIGGRAPH Asia|[DvD: Unleashing a Generative Paradigm for Document Dewarping via Coordinates-based Diffusion Model](https://arxiv.org/abs/2505.21975)||
 |2025|CVPRW|[Document Image Rectification using Stable Diffusion Transformer](https://openaccess.thecvf.com/content/CVPR2025W/WiCV/html/Kumari_Document_Image_Rectification_using_Stable_Diffusion_Transformer_CVPRW_2025_paper.html)||
-|2025|Arxiv|[Dual Dimensions Geometric Representation Learning Based Document Dewarping](https://arxiv.org/abs/2507.08492)||
 |2025|ICCV|[ForCenNet: Foreground-Centric Network for Document Image Rectification](https://arxiv.org/abs/2507.19804)|[Code](https://github.com/caipeng328/ForCenNet)|
 |2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
 |2025|Arxiv|[TADoc: Robust Time-Aware Document Image Dewarping](https://arxiv.org/abs/2508.06988)||
 |2026|Arxiv|[BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/pdf/2601.21938)||
 |2026|AAAI|[Axis-Aligned Document Dewarping](https://arxiv.org/abs/2507.15000)|[Code](https://github.com/chaoyunwang/AADD)|
+|2026|PR|[AFH-Net: An adaptive feature harmonization network for document image De-warping](https://www.sciencedirect.com/science/article/pii/S0031320326005741)||
 |2026|TMM|[Cascaded Robust Rectification for Arbitrary Document Images](https://arxiv.org/abs/2511.23150)|[Code](https://github.com/chaoyunwang/ArbDR)|
+|2026|CVPR|[D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|[Code](https://github.com/xiaomore/D2Dewarp)|
+|2026|Arixv|[TextFlow: Textline-guided Generic Document Image Unwarping](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|[Code](https://github.com/Liu-Shaokai/TextFlow)|
 <!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
-### 4.2 Dataset
+### 5.2 Dataset
 |Dataset|Num.|Type|Example|Download/Codes|
 |----|----|----|----|----|
 |[DocUNet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DocUNet_Document_Image_CVPR_2018_paper.pdf)|130|Real|[Example](./Dataset_image/docunet/docunet.md)|[Link](https://www3.cs.stonybrook.edu/~cvl/docunet.html)|
@@ -624,11 +643,12 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[UDIR](https://ieeexplore.ieee.org/document/10374269)|195|Real|[Example](./Dataset_image/udir/readme.md)|[Link](https://github.com/fh2019ustc/DocTr-Plus)|
 |[Dataset from DocAligner](https://arxiv.org/abs/2306.05749)|4568|Real|[Example](./Dataset_image/dewarp_docaligner/readme.md)|[Link](https://github.com/ZZZHANG-jx/DocAligner)|
 |[Book3D](https://arxiv.org/pdf/2601.21938)|56000|Synth|||
-|[Book1100](https://arxiv.org/pdf/2601.21938)|100|Real|||
+|[Book100](https://arxiv.org/pdf/2601.21938)|100|Real|||
+|[DocDewarpHV](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|110K|Synth||[Link](https://github.com/xiaomore/DocDewarpHV)|
+|[TextFlow1M](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|1M|Synth||[Link](https://github.com/Liu-Shaokai/TextFlow)|
 
 
-
-### 4.3 SOTA
+### 5.3 SOTA
 <table class="tg">
 <thead>
   <tr>
@@ -995,38 +1015,6 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Arxiv'25</td>
-    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Li et al.</a></td>
-    <td class="tg-c3ow">0.50</td>
-    <td class="tg-c3ow">7.71</td>
-    <td class="tg-c3ow">0.349</td>
-    <td class="tg-c3ow">0.65</td>
-    <td class="tg-c3ow">5.73</td>
-    <td class="tg-c3ow">0.186</td>
-    <td class="tg-c3ow">0.58</td>
-    <td class="tg-c3ow">8.69</td>
-    <td class="tg-c3ow"><b>0.227</b></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Arxiv'25</td>
-    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Wang et al.</a></td>
-    <td class="tg-c3ow">0.543</td>
-    <td class="tg-c3ow"><b>6.249</b></td>
-    <td class="tg-c3ow"><b>0.278</b></td>
-    <td class="tg-c3ow"><b>0.702</b></td>
-    <td class="tg-c3ow"><b>4.261</b></td>
-    <td class="tg-c3ow"><b>0.131</b></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-  </tr>
-  <tr>
     <td class="tg-c3ow">ACM MM'25</td>
     <td class="tg-c3ow"><a href="https://arxiv.org/abs/2508.04055">Uni-DocDiff</a></td>
     <td class="tg-c3ow"></td>
@@ -1074,6 +1062,38 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
   </tr>
+  <tr>
+    <td class="tg-c3ow">AAAI'26</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Wang et al.</a></td>
+    <td class="tg-c3ow">0.543</td>
+    <td class="tg-c3ow"><b>6.249</b></td>
+    <td class="tg-c3ow"><b>0.278</b></td>
+    <td class="tg-c3ow"><b>0.702</b></td>
+    <td class="tg-c3ow"><b>4.261</b></td>
+    <td class="tg-c3ow"><b>0.131</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">CVPRR'26</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">D2Dewarp</a></td>
+    <td class="tg-c3ow">0.50</td>
+    <td class="tg-c3ow">7.71</td>
+    <td class="tg-c3ow">0.349</td>
+    <td class="tg-c3ow">0.65</td>
+    <td class="tg-c3ow">5.73</td>
+    <td class="tg-c3ow">0.186</td>
+    <td class="tg-c3ow">0.58</td>
+    <td class="tg-c3ow">8.69</td>
+    <td class="tg-c3ow"><b>0.227</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
 </tbody>
 </table>
 
@@ -1081,9 +1101,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 - Note that the UVDoc benchmark reported in our repository is based on the full UVDoc benchmark dataset (reported on the [official github page](https://github.com/tanguymagne/UVDoc)). The results in the paper used only half of the UVDoc benchmark.
 
 
-## 5. Deblur
+## 6. Deblur
 
-### 5.1 Papers
+### 6.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|NIPS|[SVDocNet: Spatially Variant U-Net for Blind Document Deblurring](https://openreview.net/forum?id=Hyx3f65qLS)||
@@ -1095,17 +1115,17 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 |2024|Arxiv|[NAF-DPM: A Nonlinear Activation-Free Diffusion Probabilistic Model for Document Enhancement](https://arxiv.org/abs/2404.05669)|[Code](https://github.com/ispamm/NAF-DPM)|
 
-### 5.2 Datasets
+### 6.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
 |[TDD (text deblur dataset)](https://www.fit.vut.cz/research/publication-file/10922/hradis15CNNdeblurring.pdf)|67.6K (66K/1.6K)|Synth|[Example](./Dataset_image/tdd/tdd.md)|[Link1](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/), [Link2](https://1drv.ms/u/c/b86cdd552799794d/EQoovhEeCLVMpaeZyVWQyOoBBRsPGXHYOHteZ78q_XYszw?e=fs31YD)|
 
-### 5.3 SOTA
+### 6.3 SOTA
 Coming Soon ...
 
-## 6. Binarization
+## 7. Binarization
 
-### 6.1 Papers
+### 7.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2019|PR|[DeepOtsu: Document enhancement and binarization using iterative deep learning](https://www.sciencedirect.com/science/article/pii/S0031320319300330)|[code](https://www.ai.rug.nl/~sheng/DeepOtsu.html)|
@@ -1121,7 +1141,7 @@ Coming Soon ...
 |2024|Arxiv|[NAF-DPM: A Nonlinear Activation-Free Diffusion Probabilistic Model for Document Enhancement](https://arxiv.org/abs/2404.05669)|[Code](https://github.com/ispamm/NAF-DPM)|
 
 
-### 6.2 Datasets
+### 7.2 Datasets
 
 |Dataset|Num.|Type|Example|Download|
 |----|----|----|----|----|
@@ -1148,20 +1168,20 @@ Coming Soon ...
 |[Shipping label dataset](https://www.sciencedirect.com/science/article/pii/S0031320322002916)|1082|Real|[Example](./Dataset_image/shipping/shipping.md)|[Link](https://www.dropbox.com/sh/gqqugvclzltfldt/AACNELpHwTW-1bHLZzipxQWja?dl=0)|
 
 
-### 6.3 SOTA
+### 7.3 SOTA
 Coming Soon ...
 
 
-## 7. Handwritten Text Erasure
+## 8. Handwritten Text Erasure
 This task aims to erase the handwritten text in the document image. 
 
-### 7.1 Papers
+### 8.1 Papers
 |Year|Venue|Title|Repo|
 |----|----|-----|----|
 |2022|PRCV|[CHENet: Image to Image Chinese Handwriting Eraser](https://link.springer.com/chapter/10.1007/978-3-031-18916-6_4)||
 |2023|ICDAR|[EnsExam: A Dataset for Handwritten Text Erasure on Examination Papers](https://link.springer.com/chapter/10.1007/978-3-031-41682-8_29)|[Code](https://github.com/SCUT-DLVCLab/SCUT-EnsExam)|
 |2024|IJDAR|[Scene handwritten text erasure based on multi-scale feature fusion](https://link.springer.com/article/10.1007/s10032-024-00509-3)||
-### 7.2 Datasets
+### 8.2 Datasets
 |Dataset|Num. (train/test)|Type|Example|Download|
 |----|----|----|----|----|
 |[百度网盘AI大赛：手写文字擦除](https://aistudio.baidu.com/aistudio/competition/detail/129/0/introduction)|1281 (1081/200)|Real|[Example](./Dataset_image/baidu_handwritten_erase/baidu_handwritten_erase.md)|[Link](https://aistudio.baidu.com/aistudio/datasetdetail/121039)|
@@ -1170,7 +1190,7 @@ This task aims to erase the handwritten text in the document image.
 |[SignaTR6K](https://openaccess.thecvf.com/content/ICCV2023/html/Gholamian_Handwritten_and_Printed_Text_Segmentation_A_Signature_Case_Study_ICCV_2023_paper.html)|6257 (5169/558/530)|Real|[Example](./Dataset_image/signatr6k/signatr6k.md)|[Link](https://forms.office.com/r/2a5RDg7cAY)| 
 
 
-## 8. APP & Project & Tool
+## 9. APP & Project & Tool
 |APP & Project & Tool|Developer|Platform|
 |----|----|----|
 |[CamScanner (扫描全能王)](https://www.camscanner.com/)|INTSIG|ios, Android| 
