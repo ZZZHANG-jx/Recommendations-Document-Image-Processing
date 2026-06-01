@@ -1079,7 +1079,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CVPRR'26</td>
+    <td class="tg-c3ow">CVPR'26</td>
     <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">D2Dewarp</a></td>
     <td class="tg-c3ow">0.50</td>
     <td class="tg-c3ow">7.71</td>
