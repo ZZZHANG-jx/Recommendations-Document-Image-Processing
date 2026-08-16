@@ -1203,4 +1203,4 @@ This task aims to erase the handwritten text in the document image.
 <a id="star-rising"></a>
 
 ## ⭐ Star Rising
-[![Star Rising](https://api.star-history.com/svg?repos=ZZZHANG-jx/Recommendations-Document-Image-Processing&type=Timeline)](https://star-history.com/#ZZZHANG-jx/Recommendations-Document-Image-Processing&Timeline)
+[![Star Rising](https://star-history.dera.page/svg?repos=ZZZHANG-jx/Recommendations-Document-Image-Processing&type=Timeline)](https://star-history.dera.page/#ZZZHANG-jx/Recommendations-Document-Image-Processing&Timeline)
