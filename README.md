@@ -622,6 +622,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2026|TMM|[Cascaded Robust Rectification for Arbitrary Document Images](https://arxiv.org/abs/2511.23150)|[Code](https://github.com/chaoyunwang/ArbDR)|
 |2026|CVPR|[D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|[Code](https://github.com/xiaomore/D2Dewarp)|
 |2026|Arixv|[TextFlow: Textline-guided Generic Document Image Unwarping](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|[Code](https://github.com/Liu-Shaokai/TextFlow)|
+|2026|ECCV|[SyntheticDoc: A Large Synthetic Dataset for Document Unwarping and Illumination Correction](https://arxiv.org/html/2609.15503v1)|[Code](https://github.com/tanguymagne/SyntheticDoc)|
 <!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
 ### 5.2 Dataset
@@ -646,6 +647,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[Book100](https://arxiv.org/pdf/2601.21938)|100|Real|||
 |[DocDewarpHV](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|110K|Synth||[Link](https://github.com/xiaomore/DocDewarpHV)|
 |[TextFlow1M](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|1M|Synth||[Link](https://github.com/Liu-Shaokai/TextFlow)|
+|[SyntheticDoc](https://arxiv.org/html/2609.15503v1)|1M|Synth||[Link](https://github.com/tanguymagne/SyntheticDoc)|
 
 
 ### 5.3 SOTA
@@ -899,8 +901,6 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -937,7 +937,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
   <tr>
     <td class="tg-c3ow">SIGGRAPH Asia'23</td>
     <td class="tg-c3ow"><a href="https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174">UVDoc</a></td>
-    <td class="tg-c3ow"><b>0.544</b></td>
+    <td class="tg-c3ow">0.544</td>
     <td class="tg-c3ow">6.83</td>
     <td class="tg-c3ow">0.315</td>
     <td class="tg-c3ow"></td>
@@ -1066,8 +1066,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">AAAI'26</td>
     <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Wang et al.</a></td>
     <td class="tg-c3ow">0.543</td>
-    <td class="tg-c3ow"><b>6.249</b></td>
-    <td class="tg-c3ow"><b>0.278</b></td>
+    <td class="tg-c3ow">6.249</td>
+    <td class="tg-c3ow">0.278</td>
     <td class="tg-c3ow"><b>0.702</b></td>
     <td class="tg-c3ow"><b>4.261</b></td>
     <td class="tg-c3ow"><b>0.131</b></td>
@@ -1090,6 +1090,22 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.58</td>
     <td class="tg-c3ow">8.69</td>
     <td class="tg-c3ow"><b>0.227</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ECCV'26</td>
+    <td class="tg-c3ow"><a href="https://link.springer.com/chapter/10.1007/978-3-032-37335-9_8">SyntheticDoc</a></td>
+    <td class="tg-c3ow"><b>0.558</b></td>
+    <td class="tg-c3ow"><b>5.98</b></td>
+    <td class="tg-c3ow"><b>0.252</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
