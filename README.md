@@ -616,13 +616,13 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2025|ICCV|[ForCenNet: Foreground-Centric Network for Document Image Rectification](https://arxiv.org/abs/2507.19804)|[Code](https://github.com/caipeng328/ForCenNet)|
 |2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
 |2025|Arxiv|[TADoc: Robust Time-Aware Document Image Dewarping](https://arxiv.org/abs/2508.06988)||
-|2026|Arxiv|[BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/pdf/2601.21938)||
 |2026|AAAI|[Axis-Aligned Document Dewarping](https://arxiv.org/abs/2507.15000)|[Code](https://github.com/chaoyunwang/AADD)|
 |2026|PR|[AFH-Net: An adaptive feature harmonization network for document image De-warping](https://www.sciencedirect.com/science/article/pii/S0031320326005741)||
 |2026|TMM|[Cascaded Robust Rectification for Arbitrary Document Images](https://arxiv.org/abs/2511.23150)|[Code](https://github.com/chaoyunwang/ArbDR)|
 |2026|CVPR|[D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|[Code](https://github.com/xiaomore/D2Dewarp)|
 |2026|Arixv|[TextFlow: Textline-guided Generic Document Image Unwarping](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|[Code](https://github.com/Liu-Shaokai/TextFlow)|
 |2026|ECCV|[SyntheticDoc: A Large Synthetic Dataset for Document Unwarping and Illumination Correction](https://arxiv.org/html/2609.15503v1)|[Code](https://github.com/tanguymagne/SyntheticDoc)|
+|2026|TMM|[BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/pdf/2601.21938)|[Code](https://github.com/Liu-Shaokai/BookNet)|
 <!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
 ### 5.2 Dataset
@@ -643,11 +643,11 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[WarpDoc-R](https://openreview.net/forum?id=EjjY5yJzQG)|840|Real|||
 |[UDIR](https://ieeexplore.ieee.org/document/10374269)|195|Real|[Example](./Dataset_image/udir/readme.md)|[Link](https://github.com/fh2019ustc/DocTr-Plus)|
 |[Dataset from DocAligner](https://arxiv.org/abs/2306.05749)|4568|Real|[Example](./Dataset_image/dewarp_docaligner/readme.md)|[Link](https://github.com/ZZZHANG-jx/DocAligner)|
-|[Book3D](https://arxiv.org/pdf/2601.21938)|56000|Synth|||
-|[Book100](https://arxiv.org/pdf/2601.21938)|100|Real|||
 |[DocDewarpHV](https://openaccess.thecvf.com/content/CVPR2026/html/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.html)|110K|Synth||[Link](https://github.com/xiaomore/DocDewarpHV)|
 |[TextFlow1M](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6842468)|1M|Synth||[Link](https://github.com/Liu-Shaokai/TextFlow)|
 |[SyntheticDoc](https://arxiv.org/html/2609.15503v1)|1M|Synth||[Link](https://github.com/tanguymagne/SyntheticDoc)|
+|[Book3D](https://arxiv.org/pdf/2601.21938)|56000|Synth||[Link](https://huggingface.co/datasets/skliu520/Book3D)|
+|[Book100](https://arxiv.org/pdf/2601.21938)|100|Real||[Link](https://huggingface.co/datasets/skliu520/Book100)|
 
 
 ### 5.3 SOTA
